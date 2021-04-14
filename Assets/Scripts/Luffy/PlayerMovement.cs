@@ -1,6 +1,7 @@
 ﻿
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = System.Random;
 
 public class PlayerMovement : MonoBehaviour
@@ -56,6 +57,16 @@ public class PlayerMovement : MonoBehaviour
         if (currentPunchAnimationTime > 0)
         {
             currentPunchAnimationTime -= Time.deltaTime;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        GameObject collisionGameObject = other.gameObject;
+        if (collisionGameObject.CompareTag("FinishedLevelTrigger"))
+        {
+            // Load level 2
+            SceneManager.LoadScene(1);
         }
     }
 }
