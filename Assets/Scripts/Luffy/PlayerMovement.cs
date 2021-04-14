@@ -65,8 +65,16 @@ public class PlayerMovement : MonoBehaviour
         GameObject collisionGameObject = other.gameObject;
         if (collisionGameObject.CompareTag("FinishedLevelTrigger"))
         {
-            // Load level 2
-            SceneManager.LoadScene(1);
+            int nextIndex = SceneManager.GetActiveScene().buildIndex + 1;
+            // If we just existed level 3
+            if (nextIndex > 2)
+            {
+                Debug.Log("You win!");
+            }
+            else
+            {
+                SceneManager.LoadScene(nextIndex);
+            }
         }
     }
 }
