@@ -18,7 +18,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 3172484191844040276}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -771,8 +771,7 @@ MonoBehaviour:
   m_Tracks:
   - {fileID: -4532865091581201203}
   - {fileID: -3894823569206347857}
-  - {fileID: 7326359707790772972}
-  - {fileID: -6096296493637011794}
+  - {fileID: 3172484191844040276}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -988,6 +987,31 @@ MonoBehaviour:
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &3172484191844040276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: Rock Blocing Entrance Animation
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 7326359707790772972}
+  - {fileID: -6096296493637011794}
   m_Clips: []
   m_Markers:
     m_Objects: []
@@ -1474,7 +1498,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 3172484191844040276}
   m_Children: []
   m_Clips: []
   m_Markers:
