@@ -1,0 +1,1233 @@
+Using pre-set license
+Desktop is 3600 x 1080 @ 60 Hz
+
+ COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/gfsb/Documents/UnityProjects/Luffy's Journey
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+38127
+Successfully changed project path to: /home/gfsb/Documents/UnityProjects/Luffy's Journey
+/home/gfsb/Documents/UnityProjects/Luffy's Journey
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path /home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/gfsb/Documents/UnityProjects/Luffy's Journey/Assets
+GLX Extensions: GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_video_sync GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_NV_multigpu_context GLX_ARB_multisample GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_ARB_get_proc_address 
+Renderer: GeForce GTX 960M/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 450.102.04
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragm
+ent_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sa
+mpler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_
+ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_
+ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_E
+XT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_
+EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced_coherent GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_float_buffer GL_NV_fog_dista
+nce GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rec
+tangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -578431656
+Initialize mono
+Mono path[0] = '/home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = '/home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.003112 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 43.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.000 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.1 MB.
+System memory in use after: 79.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2252.
+Total: 3.464234 ms (FindLiveObjects: 0.228850 ms CreateObjectMapping: 0.097783 ms MarkObjects: 2.811346 ms  DeleteObjects: 0.324963 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-4.png
+  artifactKey: Guid(6c24a9435eb866e4b8bf87cef5becea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-4.png using Guid(6c24a9435eb866e4b8bf87cef5becea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09666ee52cf6d0c9209e851a9dc093ba') in 0.082805 seconds
+  Import took 0.087001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-1.png
+  artifactKey: Guid(5ba8852a7558346b5b56c570dd5d5b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-1.png using Guid(5ba8852a7558346b5b56c570dd5d5b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904f69d0ce4ac2430420f88e975e8ab1') in 0.004544 seconds
+  Import took 0.007884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-0.png
+  artifactKey: Guid(433837c4dbcfae342b8cfefcefdc2e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-0.png using Guid(433837c4dbcfae342b8cfefcefdc2e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644d25bd440b0b62920f358dc6c13082') in 0.004624 seconds
+  Import took 0.007627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-8.png
+  artifactKey: Guid(da85e6191d2e0a3518ffb58c8a7167ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-8.png using Guid(da85e6191d2e0a3518ffb58c8a7167ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe51fea2d770cb2291b7ca9016dc595') in 0.007968 seconds
+  Import took 0.011040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-6.png
+  artifactKey: Guid(5b5f83c51c33c86ba813b1f368ef0a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-6.png using Guid(5b5f83c51c33c86ba813b1f368ef0a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b70d7594be2439e6835caaf70a3b4d') in 0.004831 seconds
+  Import took 0.007962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-7.png
+  artifactKey: Guid(abc2ead45fc0b6a939fec1c785a799da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-7.png using Guid(abc2ead45fc0b6a939fec1c785a799da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9686f18ce5d7c5c9af950e044eaf5258') in 0.007516 seconds
+  Import took 0.010532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-2.png
+  artifactKey: Guid(c36fed50de2ad1fa6b90a8b47a62c568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-2.png using Guid(c36fed50de2ad1fa6b90a8b47a62c568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491ac28c234e501a65d13c9bfbb69379') in 0.004681 seconds
+  Import took 0.008230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-5.png
+  artifactKey: Guid(6be168cb06395c6c09a8c4de5b237c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-5.png using Guid(6be168cb06395c6c09a8c4de5b237c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3bf2b55e3fb3ca10684bcaa42f9010') in 0.005551 seconds
+  Import took 0.009115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-3.png
+  artifactKey: Guid(64f41c479f1898637adf15d24bf8f5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-3.png using Guid(64f41c479f1898637adf15d24bf8f5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca4d60c12b51c5dded9150a144c7240') in 0.006215 seconds
+  Import took 0.009451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave
+  artifactKey: Guid(b2825faf7e8d151878d83e09d94449f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave using Guid(b2825faf7e8d151878d83e09d94449f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1f7ea1920f5d32538f8f6d131393d5') in 0.000720 seconds
+  Import took 0.003829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-9.png
+  artifactKey: Guid(bf99e3d47ec4cd91aa91a6e08548fb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-9.png using Guid(bf99e3d47ec4cd91aa91a6e08548fb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282aaaf88e763e8c84c136f63e3f9b57') in 0.005112 seconds
+  Import took 0.008302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.060368 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-0.png
+  artifactKey: Guid(433837c4dbcfae342b8cfefcefdc2e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-0.png using Guid(433837c4dbcfae342b8cfefcefdc2e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051c21e815f40cdd04bf11d5d62c4a35') in 0.047054 seconds
+  Import took 0.051568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011558 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-0.png
+  artifactKey: Guid(433837c4dbcfae342b8cfefcefdc2e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-0.png using Guid(433837c4dbcfae342b8cfefcefdc2e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051c21e815f40cdd04bf11d5d62c4a35') in 0.006954 seconds
+  Import took 0.010320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-4.png
+  artifactKey: Guid(6c24a9435eb866e4b8bf87cef5becea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-4.png using Guid(6c24a9435eb866e4b8bf87cef5becea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7e9963e42d9336394c5a0f52e0fdd6') in 0.005719 seconds
+  Import took 0.008929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-1.png
+  artifactKey: Guid(5ba8852a7558346b5b56c570dd5d5b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-1.png using Guid(5ba8852a7558346b5b56c570dd5d5b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570a964a605a7794c8060724c4045fd5') in 0.004989 seconds
+  Import took 0.008216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-8.png
+  artifactKey: Guid(da85e6191d2e0a3518ffb58c8a7167ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-8.png using Guid(da85e6191d2e0a3518ffb58c8a7167ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27edb81b7103af463756556f77189ab') in 0.006078 seconds
+  Import took 0.010167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-6.png
+  artifactKey: Guid(5b5f83c51c33c86ba813b1f368ef0a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-6.png using Guid(5b5f83c51c33c86ba813b1f368ef0a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb16b1ddda0c0ce45e23bc034a46350') in 0.008097 seconds
+  Import took 0.012003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-7.png
+  artifactKey: Guid(abc2ead45fc0b6a939fec1c785a799da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-7.png using Guid(abc2ead45fc0b6a939fec1c785a799da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0daafbf02459db15a888c7b5c9357ce3') in 0.006336 seconds
+  Import took 0.010512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-2.png
+  artifactKey: Guid(c36fed50de2ad1fa6b90a8b47a62c568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-2.png using Guid(c36fed50de2ad1fa6b90a8b47a62c568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17767bf62792ad298a1ba4180906e00b') in 0.007226 seconds
+  Import took 0.011782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-5.png
+  artifactKey: Guid(6be168cb06395c6c09a8c4de5b237c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-5.png using Guid(6be168cb06395c6c09a8c4de5b237c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6385707d90cb755302e5cd84821b5151') in 0.006869 seconds
+  Import took 0.011649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-3.png
+  artifactKey: Guid(64f41c479f1898637adf15d24bf8f5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-3.png using Guid(64f41c479f1898637adf15d24bf8f5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd667c393b8f5694ba675a3baf78f6904') in 0.006521 seconds
+  Import took 0.011151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-9.png
+  artifactKey: Guid(bf99e3d47ec4cd91aa91a6e08548fb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Arrive or Leave/akainu-arive-leave-9.png using Guid(bf99e3d47ec4cd91aa91a6e08548fb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff74719f1a9d5e3b637472a556310ec') in 0.005935 seconds
+  Import took 0.010445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.004342 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame
+  artifactKey: Guid(ed028cef475f1831db6564e282b0d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame using Guid(ed028cef475f1831db6564e282b0d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0ab1b32cd12d0d3077400614150449') in 0.000726 seconds
+  Import took 0.004585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame
+  artifactKey: Guid(ed028cef475f1831db6564e282b0d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame using Guid(ed028cef475f1831db6564e282b0d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0ab1b32cd12d0d3077400614150449') in 0.000757 seconds
+  Import took 0.004768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094993 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-0.png
+  artifactKey: Guid(5940ce239ed7ade21b53532341cb4975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-0.png using Guid(5940ce239ed7ade21b53532341cb4975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd731791c5a044624f3407b46d4a8292e') in 0.013031 seconds
+  Import took 0.016762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-2.png
+  artifactKey: Guid(3559117981b1d8766a3fe656aef483ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-2.png using Guid(3559117981b1d8766a3fe656aef483ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e825fa3badcbec442fceadd1011e547') in 0.005565 seconds
+  Import took 0.008864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-13.png
+  artifactKey: Guid(d0ab91202bac053b19ff6fe5e85689b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-13.png using Guid(d0ab91202bac053b19ff6fe5e85689b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328f653df340b42df4eaaf846946ad85') in 0.013392 seconds
+  Import took 0.016596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-14.png
+  artifactKey: Guid(2217e94b9583ea18a855d486819f140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-14.png using Guid(2217e94b9583ea18a855d486819f140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d675c042b79e7c94d02860d88eef6e') in 0.011375 seconds
+  Import took 0.015003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-3.png
+  artifactKey: Guid(3fee891a30472ceaeb7552cbf081a14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-3.png using Guid(3fee891a30472ceaeb7552cbf081a14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58376d60dad8612c893a59ca5e8886e') in 0.009005 seconds
+  Import took 0.012782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-10.png
+  artifactKey: Guid(b982ca2eea5a13c228c5df043a9e55de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-10.png using Guid(b982ca2eea5a13c228c5df043a9e55de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7eb5d5b3bb0053b562e260929c0238c') in 0.018662 seconds
+  Import took 0.022446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-7.png
+  artifactKey: Guid(4479e8e57f72c40e0a340450f1ec54a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-7.png using Guid(4479e8e57f72c40e0a340450f1ec54a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa782ea84caeb23b628aee33c5f58575') in 0.012911 seconds
+  Import took 0.016407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-8.png
+  artifactKey: Guid(4a04b5047c4a9a1c190a1f6c6abb0828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-8.png using Guid(4a04b5047c4a9a1c190a1f6c6abb0828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602086524e4555553f6640516b884ed2') in 0.007355 seconds
+  Import took 0.011883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-1.png
+  artifactKey: Guid(fd2de0502a2d6c8f6bce1c3664887419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-1.png using Guid(fd2de0502a2d6c8f6bce1c3664887419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45d05e8d54d6f2bfbccbf94e931814d') in 0.007144 seconds
+  Import took 0.011042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-6.png
+  artifactKey: Guid(7c18d5665afe101bf89e5aac0b76754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-6.png using Guid(7c18d5665afe101bf89e5aac0b76754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd636d47fb17e16b0c92d82e23dbf323') in 0.007501 seconds
+  Import took 0.011303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-12.png
+  artifactKey: Guid(7a228aeb4782bb861a06a4ebb120b5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-12.png using Guid(7a228aeb4782bb861a06a4ebb120b5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94797eaede999ac91163b3b8cdae5ec') in 0.014127 seconds
+  Import took 0.017951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-5.png
+  artifactKey: Guid(a2b8fe3a049e1c8d587e1e4701bf439b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-5.png using Guid(a2b8fe3a049e1c8d587e1e4701bf439b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684cd1412343c0d6c4db12abdea5630a') in 0.011578 seconds
+  Import took 0.015602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-11.png
+  artifactKey: Guid(26cee3e6ed8238fc0a2663564d78c672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-11.png using Guid(26cee3e6ed8238fc0a2663564d78c672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe7cda1071c252ee270ef4af4aa2cd0') in 0.012175 seconds
+  Import took 0.016741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-9.png
+  artifactKey: Guid(235944811658744909c4fffd24185285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-9.png using Guid(235944811658744909c4fffd24185285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1a1fca600078e5c49c3a61e6722010') in 0.006702 seconds
+  Import took 0.010659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-4.png
+  artifactKey: Guid(9099392a4338c4f1489b44983421a8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Cell Flame/akainu-cell-flame-4.png using Guid(9099392a4338c4f1489b44983421a8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ced2ae4a8348edd1de95cf7f4a15c54') in 0.006893 seconds
+  Import took 0.010391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.753796 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-0.png
+  artifactKey: Guid(7b2ecfa401070f5f3ad4cd9262f6ed05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-0.png using Guid(7b2ecfa401070f5f3ad4cd9262f6ed05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312ac43876a3fffcdf6878076f820219') in 0.012164 seconds
+  Import took 0.015657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-7.png
+  artifactKey: Guid(8504eeb6c4de72becbce0c8b2d5cbc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-7.png using Guid(8504eeb6c4de72becbce0c8b2d5cbc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f795a7d53ac97dba3d8f9d70dd70318f') in 0.016049 seconds
+  Import took 0.019846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-3.png
+  artifactKey: Guid(0909b04e8cc618086bca16c2d3f2ed6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-3.png using Guid(0909b04e8cc618086bca16c2d3f2ed6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e386f5eb9e120bc20be69c4d4b937455') in 0.006663 seconds
+  Import took 0.011319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-1.png
+  artifactKey: Guid(0d6da9df3894c9b8688b2e043e846e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-1.png using Guid(0d6da9df3894c9b8688b2e043e846e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041eb3f165a70891b15d81843ba55e64') in 0.005885 seconds
+  Import took 0.009185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-6.png
+  artifactKey: Guid(4b972232089e50facb843f9c35d713b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-6.png using Guid(4b972232089e50facb843f9c35d713b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24881b5d50925bf4b188200abf72e5e') in 0.006774 seconds
+  Import took 0.010442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-4.png
+  artifactKey: Guid(66aa9ee6f5c6585e58860a4cb201023e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-4.png using Guid(66aa9ee6f5c6585e58860a4cb201023e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5086833d0948e7daf50c7198695bb985') in 0.005642 seconds
+  Import took 0.009469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-2.png
+  artifactKey: Guid(91e21e8c7d6b851a2bc0b24f4c3eb552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-2.png using Guid(91e21e8c7d6b851a2bc0b24f4c3eb552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6154b3b6a691e5559bdc92853959655d') in 0.005061 seconds
+  Import took 0.008540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-5.png
+  artifactKey: Guid(3bc29b0cf67409e08b4e5b9cde417fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Pre Cell Flame/akainu-pre-cell-flame-5.png using Guid(3bc29b0cf67409e08b4e5b9cde417fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4dcc2010efe1e59ba0967b623a6941') in 0.007403 seconds
+  Import took 0.010898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.837047 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground
+  artifactKey: Guid(34542f8aa626c96319f0a62f7140a7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground using Guid(34542f8aa626c96319f0a62f7140a7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6081b59e1eab82475c65a6d0b48e6d') in 0.000746 seconds
+  Import took 0.004288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground
+  artifactKey: Guid(34542f8aa626c96319f0a62f7140a7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground using Guid(34542f8aa626c96319f0a62f7140a7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6081b59e1eab82475c65a6d0b48e6d') in 0.000717 seconds
+  Import took 0.004505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042376 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-0-fire.png
+  artifactKey: Guid(6a29897ad0b32c27386a470d6aa536d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-0-fire.png using Guid(6a29897ad0b32c27386a470d6aa536d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ec537a8cab123967993f9e4db01d53') in 0.013484 seconds
+  Import took 0.016690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-7.png
+  artifactKey: Guid(9d6f7f061e5a1ed13b0ff9b780f5ade3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-7.png using Guid(9d6f7f061e5a1ed13b0ff9b780f5ade3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011dd8e1b01c8badc307003b79bf3564') in 0.006890 seconds
+  Import took 0.010191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-4.png
+  artifactKey: Guid(2670a6b6a739c3cdb90e113692101efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-4.png using Guid(2670a6b6a739c3cdb90e113692101efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624ae3e1335b51a264b9b91751abbac3') in 0.009251 seconds
+  Import took 0.012478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-3-fire.png
+  artifactKey: Guid(88518e238d9ac7db0bfdc97a2c1cbf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-3-fire.png using Guid(88518e238d9ac7db0bfdc97a2c1cbf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77223f7a072fa42e8cfa0e93154c5ae8') in 0.006416 seconds
+  Import took 0.010241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-5.png
+  artifactKey: Guid(0a05b848804a41cb9aa99e054d136b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-5.png using Guid(0a05b848804a41cb9aa99e054d136b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbdbe8ce22511ee85483c96c46f103b') in 0.010669 seconds
+  Import took 0.014723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-1-fire.png
+  artifactKey: Guid(03e38def249e016cb813b540e2f262fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-1-fire.png using Guid(03e38def249e016cb813b540e2f262fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e035920c5a7537d44f8ca26da49ec92') in 0.008143 seconds
+  Import took 0.011516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-0.png
+  artifactKey: Guid(e06ed0ef190b47d92895548e648947f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-0.png using Guid(e06ed0ef190b47d92895548e648947f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c735e3845fba0d2e0121baa3c48cb51b') in 0.006032 seconds
+  Import took 0.009155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-3.png
+  artifactKey: Guid(0caddc428e587ac7396b58d307598f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-3.png using Guid(0caddc428e587ac7396b58d307598f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe0b9d599ebcae60a8d0e1c56838b22') in 0.008310 seconds
+  Import took 0.011624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-2.png
+  artifactKey: Guid(447f6075ca1c6193c9b72290d5474325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-2.png using Guid(447f6075ca1c6193c9b72290d5474325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e56c54b7a0d32a08b7339d0c9400176') in 0.007214 seconds
+  Import took 0.010957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-1.png
+  artifactKey: Guid(441a030f9fc1b21beb2b72c6b0fb6829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-1.png using Guid(441a030f9fc1b21beb2b72c6b0fb6829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef4f0413b0cd71f5ec47252b03173c4') in 0.005531 seconds
+  Import took 0.008570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-6.png
+  artifactKey: Guid(2d376693214ab4020ae4b6c38a0e50a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-6.png using Guid(2d376693214ab4020ae4b6c38a0e50a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd8d21e68cce486f7a5b6dd9512c1c6') in 0.007498 seconds
+  Import took 0.010712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-2-fire.png
+  artifactKey: Guid(e9619c7ea421cee0ba1ed0f562374d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-2-fire.png using Guid(e9619c7ea421cee0ba1ed0f562374d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea24af3a79be1fa17c611e780215d53') in 0.005925 seconds
+  Import took 0.009246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-4-fire.png
+  artifactKey: Guid(5d249affd00116fbc9a124fa199406ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-4-fire.png using Guid(5d249affd00116fbc9a124fa199406ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f320197731f996068a23835909628c') in 0.010317 seconds
+  Import took 0.014476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.684009 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-0-fire.png
+  artifactKey: Guid(6a29897ad0b32c27386a470d6aa536d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-0-fire.png using Guid(6a29897ad0b32c27386a470d6aa536d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) ./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformIma -> (artifact id: '077bd851beadacaf8a9c6e846daf9836') in 0.008632 seconds
+  Import took 0.012482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-7.png
+  artifactKey: Guid(9d6f7f061e5a1ed13b0ff9b780f5ade3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-7.png using Guid(9d6f7f061e5a1ed13b0ff9b780f5ade3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f53969e95a79c0f564d8838daf94157') in 0.005687 seconds
+  Import took 0.009396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-4.png
+  artifactKey: Guid(2670a6b6a739c3cdb90e113692101efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-4.png using Guid(2670a6b6a739c3cdb90e113692101efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b521826c559be1aa0d756d78850b6bc4') in 0.051933 seconds
+  Import took 0.056925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-3-fire.png
+  artifactKey: Guid(88518e238d9ac7db0bfdc97a2c1cbf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-3-fire.png using Guid(88518e238d9ac7db0bfdc97a2c1cbf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127e4f6291e4b8db8afb34fe6e846d66') in 0.012530 seconds
+  Import took 0.018344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-5.png
+  artifactKey: Guid(0a05b848804a41cb9aa99e054d136b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-5.png using Guid(0a05b848804a41cb9aa99e054d136b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10224a882c73a8502b26eed1a3eff165') in 0.008474 seconds
+  Import took 0.012619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-1-fire.png
+  artifactKey: Guid(03e38def249e016cb813b540e2f262fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-1-fire.png using Guid(03e38def249e016cb813b540e2f262fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1994647cb1e8b1b25ad372abb9e9a346') in 0.005838 seconds
+  Import took 0.010314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000683 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-0.png
+  artifactKey: Guid(e06ed0ef190b47d92895548e648947f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-0.png using Guid(e06ed0ef190b47d92895548e648947f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd050839924943e0ed5e894c3f3a024') in 0.005622 seconds
+  Import took 0.009572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-3.png
+  artifactKey: Guid(0caddc428e587ac7396b58d307598f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-3.png using Guid(0caddc428e587ac7396b58d307598f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c610930fa0bdd13c96e05002578170') in 0.006005 seconds
+  Import took 0.009734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-2.png
+  artifactKey: Guid(447f6075ca1c6193c9b72290d5474325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-2.png using Guid(447f6075ca1c6193c9b72290d5474325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18594fe18f6a97220e55e655f2d1e115') in 0.005727 seconds
+  Import took 0.009680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-1.png
+  artifactKey: Guid(441a030f9fc1b21beb2b72c6b0fb6829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-1.png using Guid(441a030f9fc1b21beb2b72c6b0fb6829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa4206cd113b02260678c02e619a595') in 0.005389 seconds
+  Import took 0.009102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-6.png
+  artifactKey: Guid(2d376693214ab4020ae4b6c38a0e50a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-6.png using Guid(2d376693214ab4020ae4b6c38a0e50a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f071fd4ad503a61fb4a2f2f6127da73d') in 0.006192 seconds
+  Import took 0.010270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-2-fire.png
+  artifactKey: Guid(e9619c7ea421cee0ba1ed0f562374d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-2-fire.png using Guid(e9619c7ea421cee0ba1ed0f562374d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895f51dd3021fb99c9cf7d667c7177df') in 0.005899 seconds
+  Import took 0.009906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-4-fire.png
+  artifactKey: Guid(5d249affd00116fbc9a124fa199406ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Punch Ground/akainu-punch-ground-4-fire.png using Guid(5d249affd00116fbc9a124fa199406ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cd9553904a4c85a0ea65ae129fbb79') in 0.008347 seconds
+  Import took 0.013736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.048699 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk
+  artifactKey: Guid(548e17953e36a0a78af0ffe1147b4c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk using Guid(548e17953e36a0a78af0ffe1147b4c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c49f89894fe968f48c030beb5496b1') in 0.001048 seconds
+  Import took 0.005936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014334 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-0.png
+  artifactKey: Guid(c38512130803d1814aafd7ef5d421cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-0.png using Guid(c38512130803d1814aafd7ef5d421cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201141295345cd2653af9a2091f4e5d6') in 0.011806 seconds
+  Import took 0.016273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-5.png
+  artifactKey: Guid(523ec89450c4bd392ac0a8b8ca91e4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-5.png using Guid(523ec89450c4bd392ac0a8b8ca91e4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39741bccc994504960a6d673e34396c0') in 0.010257 seconds
+  Import took 0.014644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-6.png
+  artifactKey: Guid(ba845f154fd97081a8d6333c9ff8fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-6.png using Guid(ba845f154fd97081a8d6333c9ff8fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc2248aad702fa0f7776557cc074b88') in 0.009066 seconds
+  Import took 0.013359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-3.png
+  artifactKey: Guid(861532f943c47b79f90fd533e386285d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-3.png using Guid(861532f943c47b79f90fd533e386285d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e269a3b4a795d25191aa2ac61dca0ccc') in 0.010019 seconds
+  Import took 0.014355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-2.png
+  artifactKey: Guid(3762b060a22cd866db80d0ccdafc440c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-2.png using Guid(3762b060a22cd866db80d0ccdafc440c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee53839a11b4521449c034e1d61a776e') in 0.005540 seconds
+  Import took 0.008885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-7.png
+  artifactKey: Guid(5d634f732e5e83312b3893b4b2d09cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-7.png using Guid(5d634f732e5e83312b3893b4b2d09cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4218f67f86be695bb9de96f7cc53df2') in 0.007305 seconds
+  Import took 0.010355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-1.png
+  artifactKey: Guid(9cb7a170a92d276faacb9c7eacbcb12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-1.png using Guid(9cb7a170a92d276faacb9c7eacbcb12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2619d2d4c5df56896881d5c80f8b46af') in 0.011828 seconds
+  Import took 0.015238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-4.png
+  artifactKey: Guid(7fbcfa05a3bf45d77832751ab4c62576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-4.png using Guid(7fbcfa05a3bf45d77832751ab4c62576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5089aec41e1cfadacb442fb3b9033ada') in 0.007585 seconds
+  Import took 0.011009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.986109 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-0.png
+  artifactKey: Guid(c38512130803d1814aafd7ef5d421cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-0.png using Guid(c38512130803d1814aafd7ef5d421cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaa7f8a2b6a451c20f29f202d27f949') in 0.006390 seconds
+  Import took 0.010533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054405 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-1.png
+  artifactKey: Guid(9cb7a170a92d276faacb9c7eacbcb12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-1.png using Guid(9cb7a170a92d276faacb9c7eacbcb12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d721b75330ecb28d8a0e5340ec96a49') in 0.008089 seconds
+  Import took 0.011684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-5.png
+  artifactKey: Guid(523ec89450c4bd392ac0a8b8ca91e4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-5.png using Guid(523ec89450c4bd392ac0a8b8ca91e4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8974013c6f5f891050095aaeaf6968fd') in 0.008400 seconds
+  Import took 0.013766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-6.png
+  artifactKey: Guid(ba845f154fd97081a8d6333c9ff8fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-6.png using Guid(ba845f154fd97081a8d6333c9ff8fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443d6509dd0d4d76f8bab7107beb902b') in 0.011511 seconds
+  Import took 0.016369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-3.png
+  artifactKey: Guid(861532f943c47b79f90fd533e386285d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-3.png using Guid(861532f943c47b79f90fd533e386285d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fde195fb57f40c93443015263e32d7') in 0.008482 seconds
+  Import took 0.013750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-2.png
+  artifactKey: Guid(3762b060a22cd866db80d0ccdafc440c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-2.png using Guid(3762b060a22cd866db80d0ccdafc440c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71bd296c13f2a25936205a85f6dbeba') in 0.009903 seconds
+  Import took 0.015180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-7.png
+  artifactKey: Guid(5d634f732e5e83312b3893b4b2d09cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-7.png using Guid(5d634f732e5e83312b3893b4b2d09cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f986fc686fd9e7409a914f99e37dd53') in 0.007379 seconds
+  Import took 0.011890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-4.png
+  artifactKey: Guid(7fbcfa05a3bf45d77832751ab4c62576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/akainu-walk-4.png using Guid(7fbcfa05a3bf45d77832751ab4c62576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e165925b8c7810c698164cc27f803e0a') in 0.005417 seconds
+  Import took 0.008823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.901685 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/Akainu_Walk.anim
+  artifactKey: Guid(143823e4a7bd2f757b81e9cb285be2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/Akainu_Walk.anim using Guid(143823e4a7bd2f757b81e9cb285be2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b30af686969dd7327c85d994556b29') in 0.003889 seconds
+  Import took 0.007351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016261 seconds.
+  path: Assets/Third Party Assets/Animations/Akainu/Walk/Akainu_Walk.anim
+  artifactKey: Guid(143823e4a7bd2f757b81e9cb285be2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Akainu/Walk/Akainu_Walk.anim using Guid(143823e4a7bd2f757b81e9cb285be2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b30af686969dd7327c85d994556b29') in 0.001373 seconds
+  Import took 0.004870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 686.220788 seconds.
+  path: Assets/Animation/Akainu.controller
+  artifactKey: Guid(3fd1f548e4399711e832a199917be764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Akainu.controller using Guid(3fd1f548e4399711e832a199917be764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eeeffb4e9a97785da29d60b3b567889') in 0.005108 seconds
+  Import took 0.008966 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.9 MB.
+System memory in use after: 80.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 4.173977 ms (FindLiveObjects: 0.280220 ms CreateObjectMapping: 0.104228 ms MarkObjects: 3.623977 ms  DeleteObjects: 0.149898 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 323.426720 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99f3583b7b67bf733540e56f842b132') in 0.011783 seconds
+  Import took 0.015174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.286143 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e669cac6c7c1446dbbe3a9efd50a4ac') in 0.001461 seconds
+  Import took 0.006343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.083506 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(b4718f78530ad3769af2317c952b77f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(b4718f78530ad3769af2317c952b77f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ebfe6cbbc4e668dcf0cad635fd16aa') in 0.001048 seconds
+  Import took 0.005791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.518226 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(3ac852f8db0fcd848ad58f9563e8ccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(3ac852f8db0fcd848ad58f9563e8ccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d378abdc64368a07dc077d5d460e23') in 0.002787 seconds
+  Import took 0.007435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.657692 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd561a11fabdf4a220840a8b57c884480') in 0.003621 seconds
+  Import took 0.008049 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.9 MB.
+System memory in use after: 80.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2272.
+Total: 3.329567 ms (FindLiveObjects: 0.206581 ms CreateObjectMapping: 0.068530 ms MarkObjects: 2.927903 ms  DeleteObjects: 0.125196 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000959 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.9 MB.
+System memory in use after: 80.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2276.
+Total: 2.886601 ms (FindLiveObjects: 0.206406 ms CreateObjectMapping: 0.065391 ms MarkObjects: 2.489596 ms  DeleteObjects: 0.123117 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001254 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 2.855411 ms (FindLiveObjects: 0.177940 ms CreateObjectMapping: 0.069633 ms MarkObjects: 2.482871 ms  DeleteObjects: 0.123724 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.093 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2284.
+Total: 3.292395 ms (FindLiveObjects: 0.219324 ms CreateObjectMapping: 0.082117 ms MarkObjects: 2.848467 ms  DeleteObjects: 0.140878 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2288.
+Total: 3.536585 ms (FindLiveObjects: 0.249230 ms CreateObjectMapping: 0.085636 ms MarkObjects: 3.053776 ms  DeleteObjects: 0.146335 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001268 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2292.
+Total: 3.434655 ms (FindLiveObjects: 0.241392 ms CreateObjectMapping: 0.083805 ms MarkObjects: 2.973177 ms  DeleteObjects: 0.134511 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.967 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2296.
+Total: 3.383145 ms (FindLiveObjects: 0.201514 ms CreateObjectMapping: 0.087580 ms MarkObjects: 2.946930 ms  DeleteObjects: 0.145042 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2300.
+Total: 2.905866 ms (FindLiveObjects: 0.205705 ms CreateObjectMapping: 0.054467 ms MarkObjects: 2.476394 ms  DeleteObjects: 0.168171 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.087 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 3.084098 ms (FindLiveObjects: 0.200497 ms CreateObjectMapping: 0.082299 ms MarkObjects: 2.660589 ms  DeleteObjects: 0.138797 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000954 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 3.194030 ms (FindLiveObjects: 0.225364 ms CreateObjectMapping: 0.072073 ms MarkObjects: 2.742433 ms  DeleteObjects: 0.152551 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
