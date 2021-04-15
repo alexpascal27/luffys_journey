@@ -587,3 +587,138 @@ System memory in use after: 82.7 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2397.
 Total: 3.234182 ms (FindLiveObjects: 0.225534 ms CreateObjectMapping: 0.082998 ms MarkObjects: 2.787069 ms  DeleteObjects: 0.137129 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 350.732246 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195e7f145bc8d6591056a791e3be71e5') in 0.012017 seconds
+  Import took 0.015561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.064409 seconds.
+  path: Assets/Third Party Assets/UI/pause_icon.jpg
+  artifactKey: Guid(1cf38d2bf98e48c8eb249a281d21276e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/UI/pause_icon.jpg using Guid(1cf38d2bf98e48c8eb249a281d21276e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167acc1847c165ebd8c65fa48c197db4') in 0.049663 seconds
+  Import took 0.053068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.689798 seconds.
+  path: Assets/Third Party Assets/UI/—Pngtree—pause vector icon_3791321.png
+  artifactKey: Guid(9b238739ae408db03947c92c5dda84a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/UI/—Pngtree—pause vector icon_3791321.png using Guid(9b238739ae408db03947c92c5dda84a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f509097110230027be04e24c0083a06') in 0.010369 seconds
+  Import took 0.015430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.424946 seconds.
+  path: Assets/Third Party Assets/UI/pause-icon.png
+  artifactKey: Guid(9b238739ae408db03947c92c5dda84a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/UI/pause-icon.png using Guid(9b238739ae408db03947c92c5dda84a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcf6e9974a808956900caceafeb78c2') in 0.008957 seconds
+  Import took 0.012676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005556 seconds.
+  path: Assets/Third Party Assets/UI/pause-icon.png
+  artifactKey: Guid(9b238739ae408db03947c92c5dda84a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/UI/pause-icon.png using Guid(9b238739ae408db03947c92c5dda84a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcf6e9974a808956900caceafeb78c2') in 0.008033 seconds
+  Import took 0.011729 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001256 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.1 MB.
+System memory in use after: 83.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2403.
+Total: 3.561852 ms (FindLiveObjects: 0.231524 ms CreateObjectMapping: 0.101090 ms MarkObjects: 3.082502 ms  DeleteObjects: 0.144552 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001224 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.1 MB.
+System memory in use after: 83.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2407.
+Total: 3.128354 ms (FindLiveObjects: 0.224753 ms CreateObjectMapping: 0.070347 ms MarkObjects: 2.694541 ms  DeleteObjects: 0.137163 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001028 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.1 MB.
+System memory in use after: 83.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2411.
+Total: 3.834148 ms (FindLiveObjects: 0.306656 ms CreateObjectMapping: 0.098867 ms MarkObjects: 3.252746 ms  DeleteObjects: 0.172740 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 289.191304 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(3ac852f8db0fcd848ad58f9563e8ccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(3ac852f8db0fcd848ad58f9563e8ccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17cf3c309dd6d4df0a079972bba87af') in 0.013063 seconds
+  Import took 0.016602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.004144 seconds.
+  path: Assets/Scenes/Level 3.unity
+  artifactKey: Guid(37d71a3769ff593a7bfab191fff78207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 3.unity using Guid(37d71a3769ff593a7bfab191fff78207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd670033521f9bac2e344992ddfdac224') in 0.001318 seconds
+  Import took 0.005341 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
