@@ -70,6 +70,8 @@ public class PlayerMovement : MonoBehaviour
             if (nextIndex > 2)
             {
                 Debug.Log("You win!");
+                // Load win screen
+                SceneManager.LoadScene(4);
             }
             else
             {
