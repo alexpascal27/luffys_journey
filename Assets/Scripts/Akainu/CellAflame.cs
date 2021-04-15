@@ -38,6 +38,11 @@ public class CellAflame : MonoBehaviour
         {
             waiting = false;
 
+            SetGameObjectScale(3f);
+            Vector3 currentGameObjectPosition = gameObject.transform.position;
+            gameObject.transform.position = new Vector3(currentGameObjectPosition.x - 0.2f,
+                currentGameObjectPosition.y + 0.8f, currentGameObjectPosition.z);
+            
             aflameAnimating = true;
             _ability1Animator.SetBool("Flame" , true);
             remainingCellAflameAnimationPeriod = cellAflameAnimationPeriod;
@@ -68,5 +73,13 @@ public class CellAflame : MonoBehaviour
         {
             remainingWait -= Time.deltaTime;
         }
+    }
+
+    private void SetGameObjectScale(float scale)
+    {
+        Transform tempParentTransform = gameObject.transform.parent;
+        gameObject.transform.parent = null;
+        gameObject.transform.localScale = new Vector3(scale, scale);
+        gameObject.transform.parent = tempParentTransform;
     }
 }

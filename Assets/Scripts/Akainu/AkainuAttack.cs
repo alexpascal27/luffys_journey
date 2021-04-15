@@ -1,11 +1,12 @@
 ﻿using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
+
 public class AkainuAttack : MonoBehaviour
 {
     [SerializeField] [Range(0f, 100f)] private float ability1Cooldown;
     [SerializeField] private float arriveAnimationTime = 6f;
     [SerializeField] private float ability1AnimationTime;
-    [SerializeField] private Vector3 ability1Spawn;
     [SerializeField] private GameObject cellAflamePrefab;
     private bool ability1Attack = false;
     private float currentCooldown;
@@ -56,7 +57,7 @@ public class AkainuAttack : MonoBehaviour
 
             // Show warning
             GameObject cellGameObject = cellAflamePrefab;
-            cellGameObject.transform.position = ability1Spawn;
+            cellGameObject.transform.position = new Vector3(Random.Range(-7f, 7f), Random.Range(-1f, 3f), 0);
             Instantiate(cellGameObject);
         }
     }

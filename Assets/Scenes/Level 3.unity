@@ -243,7 +243,6 @@ MonoBehaviour:
   ability1Cooldown: 6
   arriveAnimationTime: 8
   ability1AnimationTime: 1.5
-  ability1Spawn: {x: 0, y: 2, z: 0}
   cellAflamePrefab: {fileID: 3371526226516943093, guid: 6023c187458c1abcaa998c006c195df9, type: 3}
   _akainuAnimator: {fileID: 95182770}
 --- !u!50 &95182773
