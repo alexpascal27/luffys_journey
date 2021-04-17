@@ -8,7 +8,6 @@ namespace Troop
         private void OnCollisionEnter2D(Collision2D other)
         {
             GameObject colliderGameObject = other.gameObject;
-            Debug.Log("Sword collided with: " + colliderGameObject.tag);
             if (colliderGameObject.CompareTag("Luffy"))
             {
                 LuffyHealthManager luffyHealthManager = colliderGameObject.GetComponent<LuffyHealthManager>();

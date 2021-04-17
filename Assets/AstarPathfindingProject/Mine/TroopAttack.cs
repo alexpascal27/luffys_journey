@@ -32,12 +32,13 @@ namespace Mine
 
         public void Attack()
         {
+            Debug.Log("called the attack function");
             if (!attacking)
             {
                 // Disable AI Scripts
                 //_seeker.enabled = false;
-                _aiPath.enabled = false;
-                _aiDestinationSetter.enabled = false;
+                //_aiPath.enabled = false;
+                //_aiDestinationSetter.enabled = false;
             
                 // Freeze the X and Y of the troop
                 _rb.constraints = RigidbodyConstraints2D.FreezeAll;
@@ -68,9 +69,8 @@ namespace Mine
 
                 // Enable AI scripts
                 //_seeker.enabled = true;
-                _aiPath.enabled = true;
-                _aiDestinationSetter.enabled = true;
-                Debug.Log("Stopped Attack Animation");
+                //_aiPath.enabled = true;
+                //_aiDestinationSetter.enabled = true;
             }
         }
 
