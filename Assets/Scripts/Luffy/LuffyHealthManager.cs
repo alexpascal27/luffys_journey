@@ -12,6 +12,7 @@ namespace Luffy
         private float currentDecreaseTimer;
         [Range(0f, 100f)][SerializeField] private float healthDecreaseAmount;
         [Range(0f, 100f)][SerializeField] private float attackDamage;
+        [Range(0f, 100f)][SerializeField] private float healAmount;
         
         [SerializeField] private GameObject healthBarFilling;
 
@@ -78,6 +79,24 @@ namespace Luffy
             health -= damage;
             // Reduce health filling UI
             ChangeHealthBarFilling(-damage);
+        }
+        
+        public void HealLuffy()
+        {
+            // Increase health
+            health += healAmount;
+            // Reduce health filling UI
+            ChangeHealthBarFilling(healAmount);
+        }
+
+        private void OnCollisionEnter2D(Collision2D other)
+        {
+            GameObject collisionGameObject = other.gameObject;
+            if (collisionGameObject.CompareTag("Meat"))
+            {
+                HealLuffy();
+                Destroy(collisionGameObject);
+            }
         }
     }
 }

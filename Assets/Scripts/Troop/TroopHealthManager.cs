@@ -15,6 +15,8 @@ namespace Troop
         [Range(0f, 100f)][SerializeField] private float healthDecreaseAmount;
         [SerializeField] private GameObject healthBarFilling;
 
+        [SerializeField] private GameObject meatPrefab;
+
         private void Update()
         {
             if (!dying)
@@ -32,6 +34,8 @@ namespace Troop
                 // if death animation finishes, die
                 if (remainingDeathTimer <= 0f)
                 {
+                    meatPrefab.transform.position = gameObject.transform.position;
+                    Instantiate(meatPrefab);
                     Destroy(gameObject);
                 }
             }

@@ -327,6 +327,7 @@ MonoBehaviour:
   animator: {fileID: 2904671861858874866}
   healthDecreaseAmount: 25
   healthBarFilling: {fileID: 8781736340155928347}
+  meatPrefab: {fileID: 2107151977625615400, guid: aab41fe08b86a6920ae72ef554faa09a, type: 3}
 --- !u!114 &6322473937617326767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -431,6 +432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2904671861858874866}
+  attacking: 0
   swordBoxCollider2D: {fileID: 5507341302653019989}
 --- !u!1 &8781736340155928347
 GameObject:
