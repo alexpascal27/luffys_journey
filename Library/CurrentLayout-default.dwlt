@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 471}
   m_MaxSize: {x: 18004, y: 14021}
   vertical: 0
-  controlID: 11780
+  controlID: 4753
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 471}
   m_MaxSize: {x: 10001, y: 14021}
   vertical: 1
-  controlID: 11781
+  controlID: 4814
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 11846
+  controlID: 4754
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -425,9 +425,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 66a4ffff
-      m_LastClickedID: -23450
-      m_ExpandedIDs: 82a4fffff4a4ffff1cadffffb4b1ffffd2b2ffff52b4ffff7ebaffff28c5ffff90edffff7ef4ffffe8f8ffff74faffff3efbffff1e5a0000c65a000032600000666600008a670000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 4efaffff70faffff3efbffff5a440000ac440000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -489,22 +489,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/gfsb/Documents/UnityProjects/Luffy's Journey
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c6430000
-    m_LastClickedID: 17350
-    m_ExpandedIDs: 00000000aa430000ac430000ae430000b0430000b2430000ba430000f6440000
+    scrollPos: {x: 0, y: 45}
+    m_SelectedIDs: 284a0000
+    m_LastClickedID: 18984
+    m_ExpandedIDs: 00000000bc430000be430000c0430000c2430000c4430000c64300002a4a00002c4a00002e4a0000304a0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -532,7 +532,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aa430000ac430000ae430000b0430000b2430000f6440000
+    m_ExpandedIDs: 00000000bc430000be430000c0430000c2430000c4430000c6430000ce4300002a4a00002c4a00002e4a0000304a0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -559,8 +559,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300001e5100000c4000007e4100005e57ffff00000000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300001e5100000c4000007e4100005e57ffff00000000244a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -587,7 +587,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 110
+  m_DirectoriesAreaWidth: 188
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -624,9 +624,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: -10}
+    m_Target: {x: -5.4822936, y: 2.254922, z: -0.103023045}
     speed: 2
-    m_Value: {x: 0, y: 0, z: -10}
+    m_Value: {x: -5.4822936, y: 2.254922, z: -0.103023045}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -677,9 +677,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.124355
+    m_Target: 0.87108606
     speed: 2
-    m_Value: 12.124354
+    m_Value: 0.87108606
   m_Ortho:
     m_Target: 1
     speed: 2
