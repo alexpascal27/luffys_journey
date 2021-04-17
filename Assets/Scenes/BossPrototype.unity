@@ -1170,8 +1170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   abilityCooldown: 5
-  timeBetweenSpawns: 0.2
-  distanceBetweenCells: 0.1
+  distanceBetweenCells: 0.35
   frozenCellPrefab: {fileID: 287870062280670164, guid: e9702874a4e90372685d7e6ee156c336, type: 3}
 --- !u!1 &1730029642
 GameObject:

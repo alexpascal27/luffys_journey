@@ -12,9 +12,6 @@ namespace Aokiji
         private float _remainingCooldownPeriod = 0f;
         
         // Ability 
-        [SerializeField] private float timeBetweenSpawns = 0.2f;
-        private bool _inBetweenSpawns = false;
-        private float _remainingTimeBetweenSpawns = 0f;
         private const float CellRadius = 0.5f;
         [SerializeField] private float distanceBetweenCells = 0.1f;
 
@@ -53,6 +50,7 @@ namespace Aokiji
                 // Can no longer spawn so set ability on cooldown
                 else
                 {
+                    _spawning = false;
                     _abilityOnCooldown = true;
                     _remainingCooldownPeriod = abilityCooldown;
                 }
@@ -120,7 +118,7 @@ namespace Aokiji
                 }
             }
             
-            PrintArrays();
+            //PrintArrays();
         }
 
         private bool IsPositionOutsideOfScreen(Vector3 position)
@@ -134,7 +132,6 @@ namespace Aokiji
         private void FixedUpdate()
         {
             if (_remainingCooldownPeriod > 0) _remainingCooldownPeriod -= Time.deltaTime;
-            if (_remainingTimeBetweenSpawns > 0) _remainingTimeBetweenSpawns -= Time.deltaTime;
         }
     }
 }
