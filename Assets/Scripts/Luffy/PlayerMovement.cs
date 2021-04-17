@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float punchAnimationTime = 1f;
     private float currentPunchAnimationTime = 0f;
     private bool currentlyPunching = false;
+    [SerializeField] private BoxCollider2D punchBoxCollider2D;
     
     // Movement
     public CharacterController2D controller;
@@ -29,13 +30,15 @@ public class PlayerMovement : MonoBehaviour
                 _animator.SetBool("Attacking", true);
                 currentPunchAnimationTime = punchAnimationTime;
                 currentlyPunching = true;
+                punchBoxCollider2D.enabled = true;
             }
         }
-
+        
         if (currentlyPunching && currentPunchAnimationTime <= 0)
         {
             _animator.SetBool("Attacking", false);
             currentlyPunching = false;
+            punchBoxCollider2D.enabled = false;
         }
         
         _horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;

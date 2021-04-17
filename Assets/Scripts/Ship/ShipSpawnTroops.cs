@@ -23,7 +23,6 @@ public class ShipSpawnTroops : MonoBehaviour
             remainingCooldownTime = spawnCooldown;
             remainingAnimationTime = animationTime;
             _animator.SetBool("Moving", true);
-            Debug.Log("Starting Animation");
         }
         // At point which we spawn troops
         if (remainingWaitTime <= 0)
@@ -36,7 +35,6 @@ public class ShipSpawnTroops : MonoBehaviour
         if (remainingAnimationTime <= 0)
         {
             _animator.SetBool("Moving", false);
-            Debug.Log("Stopping Animation");
             // Reset cooldown
             remainingCooldownTime = spawnCooldown;
             remainingAnimationTime = animationTime + remainingCooldownTime;
