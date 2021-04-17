@@ -310,6 +310,8 @@ MonoBehaviour:
   orientation: 1
   enableRotation: 0
   targetCompatibility: {fileID: 0}
+  _attacking: 0
+  _running: 1
   maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 3

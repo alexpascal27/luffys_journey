@@ -59,7 +59,11 @@ namespace Pathfinding {
 	/// It may take one or sometimes multiple frames for the path to be calculated, but finally the <see cref="OnPathComplete"/> method will be called and the current path that the AI is following will be replaced.
 	/// </summary>
 	[AddComponentMenu("Pathfinding/AI/AIPath (2D,3D)")]
-	public partial class AIPath : AIBase, IAstarAI {
+	public partial class AIPath : AIBase, IAstarAI
+	{
+		public bool _attacking = false;
+		public bool _running = true;
+
 		/// <summary>
 		/// How quickly the agent accelerates.
 		/// Positive values represent an acceleration in world units per second squared.
@@ -268,6 +272,13 @@ namespace Pathfinding {
 		/// So when the agent is close to the destination this method will typically be called every <see cref="repathRate"/> seconds.
 		/// </summary>
 		public virtual void OnTargetReached () {
+			// Stop the running animation
+			_running = false;
+			Animator troopAnimator = GetComponent<Animator>();
+			troopAnimator.SetBool("Running", false);
+			// Start attack logic
+			_attacking = true;
+			
 		}
 
 		/// <summary>
@@ -322,6 +333,14 @@ namespace Pathfinding {
 			// (due to interpolator.remainingDistance being incorrect).
 			interpolator.MoveToCircleIntersection2D(position, pickNextWaypointDist, movementPlane);
 
+			// Troop Running Logic
+			if (!_running)
+			{
+				Animator troopAnimator = GetComponent<Animator>();
+				troopAnimator.SetBool("Running", true);
+				_running = true;
+			}
+			
 			var distanceToEnd = remainingDistance;
 			if (distanceToEnd <= endReachedDistance) {
 				reachedEndOfPath = true;
