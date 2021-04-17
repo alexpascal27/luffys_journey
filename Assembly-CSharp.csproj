@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Akainu\CellAflame.cs" />
      <Compile Include="Assets\Scripts\Luffy\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Ship\ShipSpawnTroops.cs" />
+     <Compile Include="Assets\Scripts\Luffy\HealthManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

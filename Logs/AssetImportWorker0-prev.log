@@ -13,11 +13,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-34565
+42391
 Successfully changed project path to: /home/gfsb/Documents/UnityProjects/Luffy's Journey
 /home/gfsb/Documents/UnityProjects/Luffy's Journey
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 80.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path /home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,273 +36,506 @@ XT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate
 EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced_coherent GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_float_buffer GL_NV_fog_dista
 nce GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rec
 tangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1202046696
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -357540328
 Initialize mono
 Mono path[0] = '/home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = '/home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56017
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56509
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002999 seconds.
+Registered in 0.002989 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 136.01 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 66.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.375 seconds
+- Completed reload, in  2.895 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000823 seconds.
+Registered in 0.001019 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.20 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 73.01 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.157 seconds
+- Completed reload, in  1.405 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1862 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.1 MB.
+System memory in use before: 82.2 MB.
 System memory in use after: 82.1 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2306.
-Total: 3.568335 ms (FindLiveObjects: 0.225991 ms CreateObjectMapping: 0.086323 ms MarkObjects: 2.935642 ms  DeleteObjects: 0.319262 ms)
+Total: 3.811918 ms (FindLiveObjects: 0.243455 ms CreateObjectMapping: 0.110295 ms MarkObjects: 3.094084 ms  DeleteObjects: 0.362696 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Scenes/Win Screen.unity
+  artifactKey: Guid(17977ff52cf2936da88f02172ab37d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Win Screen.unity using Guid(17977ff52cf2936da88f02172ab37d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9e3cbb350364870c404ad3d593c532') in 0.022060 seconds
+  Import took 0.026983 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.2 MB.
+System memory in use after: 44.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2306.
+Total: 4.026846 ms (FindLiveObjects: 0.314154 ms CreateObjectMapping: 0.151577 ms MarkObjects: 3.428266 ms  DeleteObjects: 0.131109 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.924314 seconds.
   path: Assets/Scenes/Level 1.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16777d6733251fa3e39dfbc9abf9da94') in 0.013647 seconds
-  Import took 0.018171 seconds .
+Start importing Assets/Scenes/Level 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae73e893c57cce33fc7a45eab11829d3') in 0.001132 seconds
+  Import took 0.004978 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.390634 seconds.
-  path: Assets/Third Party Assets/UI/health_bar.png
-  artifactKey: Guid(15752d31636f364d1b4c31c8f1f7e717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Third Party Assets/UI/health_bar.png using Guid(15752d31636f364d1b4c31c8f1f7e717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a724e2e738f1a411fa9ccc20de2a9e68') in 0.108216 seconds
-  Import took 0.113385 seconds .
+  Time since last request: 103.116593 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Attack/luffy-attack(1).png
+  artifactKey: Guid(b03671e05ae9c5aa09fce003adaa86fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Attack/luffy-attack(1).png using Guid(b03671e05ae9c5aa09fce003adaa86fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39941514991e2052e4c18185d615ce8c') in 0.111749 seconds
+  Import took 0.118479 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.524210 seconds.
-  path: Assets/Third Party Assets/UI/health_bar.png
-  artifactKey: Guid(15752d31636f364d1b4c31c8f1f7e717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Third Party Assets/UI/health_bar.png using Guid(15752d31636f364d1b4c31c8f1f7e717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0e15f84a95bcb51a897faac8c15bae') in 0.039476 seconds
-  Import took 0.043693 seconds .
+  Time since last request: 0.000411 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Attack/luffy-attack.png
+  artifactKey: Guid(9b5f22c0f23ac058794901092c0f28c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Attack/luffy-attack.png using Guid(9b5f22c0f23ac058794901092c0f28c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be976f2a8e0356048d776d486ffe3052') in 0.006024 seconds
+  Import took 0.010412 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 90.189035 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png
-  artifactKey: Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png using Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5154fb66675a78be59579a8acd640223') in 0.014315 seconds
-  Import took 0.017952 seconds .
+  Time since last request: 0.000177 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Attack/luffy-attack(1).png
+  artifactKey: Guid(b03671e05ae9c5aa09fce003adaa86fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Attack/luffy-attack(1).png using Guid(b03671e05ae9c5aa09fce003adaa86fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39941514991e2052e4c18185d615ce8c') in 0.005619 seconds
+  Import took 0.010885 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@2x.png
-  artifactKey: Guid(7395bf0bc3cc40e4ab2dda5ec6832261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@2x.png using Guid(7395bf0bc3cc40e4ab2dda5ec6832261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e501db5dbd16e13dcfc2aa7cfc26908') in 0.005986 seconds
-  Import took 0.009820 seconds .
+  Time since last request: 0.000271 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Attack/luffy-attack(2).png
+  artifactKey: Guid(70382da5e479534179ea7025730e398f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Attack/luffy-attack(2).png using Guid(70382da5e479534179ea7025730e398f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa66fa449567f546eca917ae5b85b8b') in 0.012116 seconds
+  Import took 0.018433 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@3x.png
-  artifactKey: Guid(76beef9fdae7b48468ddf07d0400a374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@3x.png using Guid(76beef9fdae7b48468ddf07d0400a374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3a411d804d7613b3daaee91cbbcb21') in 0.008819 seconds
-  Import took 0.012532 seconds .
+  Time since last request: 0.000279 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Attack/luffy-attack(3).png
+  artifactKey: Guid(99e879632e0e0ae87b69eb1efa04b468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Attack/luffy-attack(3).png using Guid(99e879632e0e0ae87b69eb1efa04b468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc5f39aa5a823ab00e3eb23b28c8802') in 0.008464 seconds
+  Import took 0.014286 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@2x.png
-  artifactKey: Guid(0779ad3feec52124e97114bcbb12ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@2x.png using Guid(0779ad3feec52124e97114bcbb12ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4ec177e1a259ed2cc5b0935a34815c') in 0.006159 seconds
-  Import took 0.010299 seconds .
+  Time since last request: 0.000892 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Attack/luffy-attack(2).png
+  artifactKey: Guid(70382da5e479534179ea7025730e398f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Attack/luffy-attack(2).png using Guid(70382da5e479534179ea7025730e398f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa66fa449567f546eca917ae5b85b8b') in 0.006799 seconds
+  Import took 0.010952 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence.png
-  artifactKey: Guid(ff00345da0563d641903c5bd5bb748a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence.png using Guid(ff00345da0563d641903c5bd5bb748a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ef0c8ddea71eee43bf1464ba50a2fe') in 0.007859 seconds
-  Import took 0.011767 seconds .
+  Time since last request: 10.867714 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Idle/luffy-idle(1).png
+  artifactKey: Guid(cdf3f29b26afe2607869cacffdd0ba93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Idle/luffy-idle(1).png using Guid(cdf3f29b26afe2607869cacffdd0ba93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80cf43fd0fa975dbd5e3b130400fe91') in 0.007975 seconds
+  Import took 0.012986 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone.png
-  artifactKey: Guid(62ce01ddca719d34ea9648c586a7cc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone.png using Guid(62ce01ddca719d34ea9648c586a7cc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d91e223414a082e0653633549212c2a') in 0.005886 seconds
-  Import took 0.009450 seconds .
+  Time since last request: 0.000213 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Idle/luffy-idle.png
+  artifactKey: Guid(2c646a85c35aac06fb72285cb765fb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Idle/luffy-idle.png using Guid(2c646a85c35aac06fb72285cb765fb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7400af2cb52b87d8f85e462dc483d500') in 0.008789 seconds
+  Import took 0.014495 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@3x.png
-  artifactKey: Guid(cee9dbe90b270c944ae1dabf41c93b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@3x.png using Guid(cee9dbe90b270c944ae1dabf41c93b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798e231e36fb8c973ed7b183ebb65e54') in 0.009526 seconds
-  Import took 0.013385 seconds .
+  Time since last request: 0.000188 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Idle/luffy-idle(2).png
+  artifactKey: Guid(9e40ab9f65c063889bba6b0154992117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Idle/luffy-idle(2).png using Guid(9e40ab9f65c063889bba6b0154992117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd971be47b8ee38e856a9f664f9e0dac0') in 0.006112 seconds
+  Import took 0.010819 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence.png
-  artifactKey: Guid(e92fc44f12c21dd44a49e390f39f7ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence.png using Guid(e92fc44f12c21dd44a49e390f39f7ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3279c90b58a81adf9a8e5ae66f47bb') in 0.005978 seconds
-  Import took 0.010138 seconds .
+  Time since last request: 13.413519 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(1).png
+  artifactKey: Guid(d6ca71c0e655943e8a778409e26317ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(1).png using Guid(d6ca71c0e655943e8a778409e26317ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72de3d885f5d770e7c8c14e2f2af86fb') in 0.007722 seconds
+  Import took 0.012375 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@4x.png
-  artifactKey: Guid(9125c204f566db048a92ebcb64d9d14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@4x.png using Guid(9125c204f566db048a92ebcb64d9d14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a2a7d9cfe6eed2a0609bd7c9d30078') in 0.008385 seconds
-  Import took 0.012285 seconds .
+  Time since last request: 0.000213 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(5).png
+  artifactKey: Guid(fe6422b33670dd1f5b530e14343d60d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(5).png using Guid(fe6422b33670dd1f5b530e14343d60d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66298f9231359401880cb661df23793b') in 0.008394 seconds
+  Import took 0.014820 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@2x.png
-  artifactKey: Guid(d6a44ab95b0def041a7929981a2c23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@2x.png using Guid(d6a44ab95b0def041a7929981a2c23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e707407267006ce123127d7626abdd') in 0.006011 seconds
-  Import took 0.009565 seconds .
+  Time since last request: 0.000297 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Run/luffy-run.png
+  artifactKey: Guid(2fcd718642ed1610895816d8ff120484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Run/luffy-run.png using Guid(2fcd718642ed1610895816d8ff120484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58024bbf9ca7490fd4e3de25e22de2bf') in 0.009224 seconds
+  Import took 0.014665 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016700 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@4x.png
-  artifactKey: Guid(9125c204f566db048a92ebcb64d9d14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@4x.png using Guid(9125c204f566db048a92ebcb64d9d14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a2a7d9cfe6eed2a0609bd7c9d30078') in 0.005776 seconds
-  Import took 0.009835 seconds .
+  Time since last request: 0.000165 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(4).png
+  artifactKey: Guid(f3597aa0b9ba9678c81c78e8e142a1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(4).png using Guid(f3597aa0b9ba9678c81c78e8e142a1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29948767619b69d0096bd0c2d56d068') in 0.007878 seconds
+  Import took 0.013823 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 349.990977 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Capsule.png
-  artifactKey: Guid(34587324d412940a79d530020c957dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Capsule.png using Guid(34587324d412940a79d530020c957dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec27a088f5b61e17f24e5e4ab5b519e4') in 0.008955 seconds
-  Import took 0.012299 seconds .
+  Time since last request: 0.000357 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(1).png
+  artifactKey: Guid(d6ca71c0e655943e8a778409e26317ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(1).png using Guid(d6ca71c0e655943e8a778409e26317ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72de3d885f5d770e7c8c14e2f2af86fb') in 0.009013 seconds
+  Import took 0.014500 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-Top.png
-  artifactKey: Guid(4b2a04fdbe0ef4d8da8f90eaca817cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-Top.png using Guid(4b2a04fdbe0ef4d8da8f90eaca817cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2494dfd1013dd253bd152988aae8ba54') in 0.009170 seconds
-  Import took 0.012624 seconds .
+  Time since last request: 0.000196 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(3).png
+  artifactKey: Guid(2bcbbe9bc8c17a5b7a5aacc586aad4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(3).png using Guid(2bcbbe9bc8c17a5b7a5aacc586aad4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64631e676f6476b321810c675637da92') in 0.007391 seconds
+  Import took 0.012483 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-Top.png
-  artifactKey: Guid(a9716c16a44a94eed9b5c90fbf4d9bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-Top.png using Guid(a9716c16a44a94eed9b5c90fbf4d9bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73fe3aefb2f8c7f9102f905d2430536') in 0.008035 seconds
-  Import took 0.011462 seconds .
+  Time since last request: 0.000175 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(7).png
+  artifactKey: Guid(efb9ff524c03990a78fe0fb0a518ee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(7).png using Guid(efb9ff524c03990a78fe0fb0a518ee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0711d177b85c08148017286ec555fc3') in 0.008880 seconds
+  Import took 0.014984 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png
-  artifactKey: Guid(87aaca0a643d54397ba969dab4fc8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png using Guid(87aaca0a643d54397ba969dab4fc8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ad61a3646e272d5516c6a50d723150') in 0.006667 seconds
-  Import took 0.010265 seconds .
+  Time since last request: 0.000220 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(2).png
+  artifactKey: Guid(94b94bf54f75ff6f4bb89d527690e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(2).png using Guid(94b94bf54f75ff6f4bb89d527690e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343676a126886d4f90704c2d8bfee110') in 0.005941 seconds
+  Import took 0.010269 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png
-  artifactKey: Guid(4adeaf2d2b1c7417e89f026626d8264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png using Guid(4adeaf2d2b1c7417e89f026626d8264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c8ec4dddd3c0706a2bc83633f2e9ac') in 0.008514 seconds
-  Import took 0.012047 seconds .
+  Time since last request: 0.000159 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(6).png
+  artifactKey: Guid(23bea34b9c405cda991c8cde86b8ff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Run/luffy-run(6).png using Guid(23bea34b9c405cda991c8cde86b8ff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd211fc1af93bfc4a644228f573fc58') in 0.006581 seconds
+  Import took 0.010715 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png
-  artifactKey: Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png using Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ed3854a0d38a3267f5bb092e849938') in 0.006775 seconds
-  Import took 0.010364 seconds .
+  Time since last request: 26.487091 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(1).png
+  artifactKey: Guid(7f547355c85b55803876c8e425403753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(1).png using Guid(7f547355c85b55803876c8e425403753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b628d6554b2e07dbea3299a8756f30') in 0.007602 seconds
+  Import took 0.012437 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamond.png
-  artifactKey: Guid(0d267bc78a0864eb48358689b29ed20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamond.png using Guid(0d267bc78a0864eb48358689b29ed20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d221ce6e5d766a43145732450528a3') in 0.012433 seconds
-  Import took 0.018516 seconds .
+  Time since last request: 0.000216 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(6).png
+  artifactKey: Guid(661e0e434af544877a6267e11fca32eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(6).png using Guid(661e0e434af544877a6267e11fca32eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa8de40105ecbcbc556efd7863705c1') in 0.007314 seconds
+  Import took 0.012647 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 91.023836 seconds.
-  path: Assets/Personal/Rectangle.png
-  artifactKey: Guid(fd2266c359569b4cd93a65d55a5418e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personal/Rectangle.png using Guid(fd2266c359569b4cd93a65d55a5418e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e1218b3150cebd5a3b203f4da92947') in 0.008587 seconds
-  Import took 0.011757 seconds .
+  Time since last request: 0.000204 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(2).png
+  artifactKey: Guid(6f7e48adff0d8df78b4114256fbddbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(2).png using Guid(6f7e48adff0d8df78b4114256fbddbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62994c5db0fc4813214dc8d632d24bf1') in 0.006654 seconds
+  Import took 0.010850 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.711580 seconds.
-  path: Assets/Personal/Rectangle.png
-  artifactKey: Guid(fd2266c359569b4cd93a65d55a5418e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personal/Rectangle.png using Guid(fd2266c359569b4cd93a65d55a5418e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdb47852959e451fc1665e363bc4cb9') in 0.006343 seconds
-  Import took 0.010058 seconds .
+  Time since last request: 0.000185 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(5).png
+  artifactKey: Guid(f8738474e0028ed09aa650d44ec52123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(5).png using Guid(f8738474e0028ed09aa650d44ec52123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f421243b17fd5791ea049a6896339028') in 0.006649 seconds
+  Import took 0.011045 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004423 seconds.
-  path: Assets/Personal/Rectangle.png
-  artifactKey: Guid(fd2266c359569b4cd93a65d55a5418e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personal/Rectangle.png using Guid(fd2266c359569b4cd93a65d55a5418e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdb47852959e451fc1665e363bc4cb9') in 0.005959 seconds
-  Import took 0.009958 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(3).png
+  artifactKey: Guid(0a82bf2082f5d1bb7ae75a1ee4b66d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(3).png using Guid(0a82bf2082f5d1bb7ae75a1ee4b66d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43124fac4155ae146642fa4a53d991e') in 0.009782 seconds
+  Import took 0.017555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(4).png
+  artifactKey: Guid(cd3e3bb2d9d160a7cb60e90ba378153f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(4).png using Guid(cd3e3bb2d9d160a7cb60e90ba378153f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c8608894cf606a18f730ac7c103378') in 0.007918 seconds
+  Import took 0.014008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage.png
+  artifactKey: Guid(60305ba80dbdf0f9cb04ea7483e6e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage.png using Guid(60305ba80dbdf0f9cb04ea7483e6e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b36a77d2f2417c0773eb655452dc8aa') in 0.008862 seconds
+  Import took 0.014745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(7).png
+  artifactKey: Guid(2818bfd86e65817dcb114f8777e731bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(7).png using Guid(2818bfd86e65817dcb114f8777e731bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99adf0dad8de47f811eee5a5f953c8e4') in 0.007141 seconds
+  Import took 0.012863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(4).png
+  artifactKey: Guid(cd3e3bb2d9d160a7cb60e90ba378153f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Animations/Luffy/Take Damage/luffy-take-damage(4).png using Guid(cd3e3bb2d9d160a7cb60e90ba378153f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c8608894cf606a18f730ac7c103378') in 0.008396 seconds
+  Import took 0.014389 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001573 seconds.
+Registered in 0.001176 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
+- Completed reload, in  1.154 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 82.2 MB.
 System memory in use after: 82.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2334.
-Total: 3.783669 ms (FindLiveObjects: 0.234626 ms CreateObjectMapping: 0.089223 ms MarkObjects: 3.313596 ms  DeleteObjects: 0.144778 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 4.098549 ms (FindLiveObjects: 0.317432 ms CreateObjectMapping: 0.111008 ms MarkObjects: 3.481021 ms  DeleteObjects: 0.187284 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000865 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.087 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 3.035731 ms (FindLiveObjects: 0.228366 ms CreateObjectMapping: 0.106408 ms MarkObjects: 2.565519 ms  DeleteObjects: 0.134048 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2324.
+Total: 3.849649 ms (FindLiveObjects: 0.370810 ms CreateObjectMapping: 0.126332 ms MarkObjects: 3.145522 ms  DeleteObjects: 0.204625 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001048 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2328.
+Total: 3.427106 ms (FindLiveObjects: 0.256700 ms CreateObjectMapping: 0.089039 ms MarkObjects: 2.945373 ms  DeleteObjects: 0.134235 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001428 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.302 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2333.
+Total: 4.662423 ms (FindLiveObjects: 0.362311 ms CreateObjectMapping: 0.175295 ms MarkObjects: 3.939226 ms  DeleteObjects: 0.183558 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001021 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.290 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2337.
+Total: 4.616815 ms (FindLiveObjects: 0.337850 ms CreateObjectMapping: 0.161257 ms MarkObjects: 3.912379 ms  DeleteObjects: 0.203097 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001031 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.244 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 4.929331 ms (FindLiveObjects: 0.338947 ms CreateObjectMapping: 0.215365 ms MarkObjects: 4.199658 ms  DeleteObjects: 0.172909 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.4 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2345.
+Total: 4.205128 ms (FindLiveObjects: 0.235143 ms CreateObjectMapping: 0.087445 ms MarkObjects: 3.697425 ms  DeleteObjects: 0.183003 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
