@@ -248,8 +248,8 @@ GameObject:
   - component: {fileID: 4362929694468812648}
   - component: {fileID: 4362929694468812651}
   - component: {fileID: 4362929694468812650}
-  - component: {fileID: 4362929694468812649}
   - component: {fileID: 4362929694468812654}
+  - component: {fileID: 2970128852371159618}
   m_Layer: 0
   m_Name: Luffy
   m_TagString: Luffy
@@ -395,32 +395,6 @@ MonoBehaviour:
   punchBoxCollider2D: {fileID: 4362929693964850123}
   controller: {fileID: 4362929694468812651}
   runSpeed: 150
---- !u!61 &4362929694468812649
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4362929694468812646}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.15626197, y: 0.09253561}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.6, y: 0.7}
-    newSize: {x: 1.0258621, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.27988306, y: 0.11152251}
-  m_EdgeRadius: 0
 --- !u!114 &4362929694468812654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,3 +412,29 @@ MonoBehaviour:
   attackDamage: 10
   healAmount: 30
   healthBarFilling: {fileID: 4362929692528611880}
+--- !u!61 &2970128852371159618
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362929694468812646}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6, y: 0.7}
+    newSize: {x: 1.0258621, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.26494548, y: 0.6003895}
+  m_EdgeRadius: 0
