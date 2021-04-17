@@ -52,8 +52,8 @@ namespace Troop
 
         private void ChangeHealthBarFilling(float change)
         {
-            float scaleChange = change * 0.0042f;
-            float positionChange = change * 0.00212f;
+            float scaleChange = change * 0.00475f;
+            float positionChange = change * 0.0027f;
             // Change scale
             healthBarFilling = ChangeScale(healthBarFilling, new Vector3(scaleChange, 0));
             // Move appropriately

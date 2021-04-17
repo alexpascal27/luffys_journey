@@ -24,6 +24,7 @@ namespace Luffy
 
         private void Update()
         {
+            //Debug.Log("Health:" + (int)health);
             // If die
             if (health <= 0)
             {
@@ -49,8 +50,8 @@ namespace Luffy
 
         private void ChangeHealthBarFilling(float change)
         {
-            float scaleChange = change * 0.0042f;
-            float positionChange = change * 0.00212f;
+            float scaleChange = change * 0.00475f;
+            float positionChange = change * 0.0027f;
             // Change scale
             healthBarFilling = ChangeScale(healthBarFilling, new Vector3(scaleChange, 0));
             // Move appropriately
@@ -74,7 +75,7 @@ namespace Luffy
             float damage;
             if (overtimeDamage) damage = healthDecreaseAmount;
             else damage = attackDamage;
-                
+            
             // Decrease health
             health -= damage;
             // Reduce health filling UI
@@ -83,10 +84,16 @@ namespace Luffy
         
         public void HealLuffy()
         {
+            if(health>=99) return;
+            float amount = healAmount;
+            if (healAmount + health > 100f)
+            {
+                amount = 100 - health;
+            }
             // Increase health
-            health += healAmount;
+            health += amount;
             // Reduce health filling UI
-            ChangeHealthBarFilling(healAmount);
+            ChangeHealthBarFilling(amount);
         }
 
         private void OnCollisionEnter2D(Collision2D other)

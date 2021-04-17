@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4362929692528611886}
   m_Layer: 0
   m_Name: health-bar-filling
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4362929692528611880}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.016, y: 0.37666655, z: 0}
-  m_LocalScale: {x: 0.28565818, y: 0.06666667, z: 1}
+  m_LocalPosition: {x: 0.025, y: 0.375, z: 0}
+  m_LocalScale: {x: 0.38, y: 0.08, z: 1}
   m_Children: []
   m_Father: {fileID: 4362929694468812645}
   m_RootOrder: 1
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4362929692808716535}
   m_Layer: 0
   m_Name: health_bar
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,8 +107,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4362929692808716529}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.005999883, y: 0.37399992, z: 0}
-  m_LocalScale: {x: 0.33333334, y: 0.33333334, z: 1}
+  m_LocalPosition: {x: 0, y: 0.375, z: 0}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 4362929694468812645}
   m_RootOrder: 0
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 4362929693964850123}
   m_Layer: 0
   m_Name: Fist Hit Box
-  m_TagString: LuffyFist
+  m_TagString: Luffy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -365,6 +365,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_MovementSmoothing: 0.05
+  spriteRenderers:
+  - {fileID: 4362929692528611886}
+  - {fileID: 4362929692808716535}
 --- !u!114 &4362929694468812650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,4 +425,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   decreaseHealthEveryXSeconds: 2
   healthDecreaseAmount: 5
+  attackDamage: 0
+  healAmount: 0
   healthBarFilling: {fileID: 4362929692528611880}

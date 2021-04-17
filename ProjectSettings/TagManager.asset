@@ -5,12 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - FinishedLevelTrigger
-  - LuffyFist
   - Environment
   - Troop
   - Luffy
-  - Sword
   - Meat
+  - UI
   layers:
   - Default
   - TransparentFX

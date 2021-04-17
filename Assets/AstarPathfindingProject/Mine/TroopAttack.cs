@@ -32,7 +32,7 @@ namespace Mine
 
         public void Attack()
         {
-            Debug.Log("called the attack function");
+            //Debug.Log("called the attack function");
             if (!attacking)
             {
                 // Disable AI Scripts

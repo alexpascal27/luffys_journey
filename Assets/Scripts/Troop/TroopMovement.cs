@@ -9,6 +9,7 @@ namespace Troop
         private bool _facingLeft = true;
         private GameObject playerGameObject;
         private AIDestinationSetter aiDestinationSetter;
+        private SpriteRenderer spriteRenderer;
 
         private void Start()
         {
@@ -17,6 +18,10 @@ namespace Troop
             
             aiDestinationSetter = GetComponent<AIDestinationSetter>();
             aiDestinationSetter.target = playerTransform;
+            
+            GetComponent<Animator>().SetBool("Running", true);
+
+            spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
         private void Update()
@@ -29,7 +34,18 @@ namespace Troop
             if ((playerTransform.position.x <= gameObject.transform.position.x && !_facingLeft) || (playerTransform.position.x > gameObject.transform.position.x && _facingLeft))
             {
                 _facingLeft = !_facingLeft;
-                gameObject.transform.Rotate(0f, 180f, 0f);
+                
+                spriteRenderer.flipX = !spriteRenderer.flipX;
+                
+                int childCount = transform.childCount;
+                for(int i = 0; i < childCount; i++)
+                {
+                    Transform child = transform.GetChild(i);
+                    if (!child.gameObject.CompareTag("UI"))
+                    {
+                        child.Rotate(0f, 180f, 0f);
+                    }
+                }
             }
         }
     }

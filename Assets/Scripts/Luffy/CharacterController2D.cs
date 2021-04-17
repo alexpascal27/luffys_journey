@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour
@@ -7,6 +8,12 @@ public class CharacterController2D : MonoBehaviour
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true; // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
+	private SpriteRenderer spriteRenderer;
+
+	private void Start()
+	{
+		spriteRenderer = GetComponent<SpriteRenderer>();
+	}
 
 	private void Awake()
 	{
@@ -50,8 +57,17 @@ private void Flip()
 	{
 		// Switch the way the player is labelled as facing.
 		m_FacingRight = !m_FacingRight;
-
-		// Transform using Rotation
-		transform.Rotate(0f, 180f, 0f);
+		
+		spriteRenderer.flipX = !spriteRenderer.flipX;
+                
+		int childCount = transform.childCount;
+		for(int i = 0; i < childCount; i++)
+		{
+			Transform child = transform.GetChild(i);
+			if (!child.gameObject.CompareTag("UI"))
+			{
+				child.Rotate(0f, 180f, 0f);
+			}
+		}
 	}
 }
