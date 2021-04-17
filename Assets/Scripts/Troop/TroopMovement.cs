@@ -9,8 +9,7 @@ namespace Troop
         private bool _facingLeft = true;
         private GameObject playerGameObject;
         private AIDestinationSetter aiDestinationSetter;
-        
-        
+
         private void Start()
         {
             playerGameObject = GameObject.Find("Luffy");

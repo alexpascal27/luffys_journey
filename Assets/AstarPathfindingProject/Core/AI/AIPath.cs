@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Mine;
+using UnityEngine.PlayerLoop;
 
 namespace Pathfinding {
 	using Pathfinding.RVO;
@@ -61,7 +63,6 @@ namespace Pathfinding {
 	[AddComponentMenu("Pathfinding/AI/AIPath (2D,3D)")]
 	public partial class AIPath : AIBase, IAstarAI
 	{
-		public bool _attacking = false;
 		public bool _running = true;
 
 		/// <summary>
@@ -277,7 +278,11 @@ namespace Pathfinding {
 			Animator troopAnimator = GetComponent<Animator>();
 			troopAnimator.SetBool("Running", false);
 			// Start attack logic
-			_attacking = true;
+			TroopAttack troopAttack = gameObject.GetComponent<TroopAttack>();
+			if (!troopAttack.attacking)
+			{
+				troopAttack.Attack();
+			}
 			
 		}
 

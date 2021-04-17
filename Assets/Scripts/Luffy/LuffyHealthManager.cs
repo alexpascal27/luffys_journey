@@ -11,7 +11,8 @@ namespace Luffy
         [SerializeField] private float decreaseHealthEveryXSeconds;
         private float currentDecreaseTimer;
         [Range(0f, 100f)][SerializeField] private float healthDecreaseAmount;
-
+        [Range(0f, 100f)][SerializeField] private float attackDamage;
+        
         [SerializeField] private GameObject healthBarFilling;
 
         private void Start()
@@ -30,10 +31,7 @@ namespace Luffy
             // If time to decrease health
             if (currentDecreaseTimer <= 0)
             {
-                // Decrease health
-                health -= healthDecreaseAmount;
-                // Reduce health filling UI
-                ChangeHealthBarFilling(-healthDecreaseAmount);
+                DamageLuffy(true);
                 // Reset timer
                 currentDecreaseTimer = decreaseHealthEveryXSeconds;
             }
@@ -68,6 +66,18 @@ namespace Luffy
             go.transform.parent = parentTransform;
 
             return go;
+        }
+
+        public void DamageLuffy(bool overtimeDamage)
+        {
+            float damage;
+            if (overtimeDamage) damage = healthDecreaseAmount;
+            else damage = attackDamage;
+                
+            // Decrease health
+            health -= damage;
+            // Reduce health filling UI
+            ChangeHealthBarFilling(-damage);
         }
     }
 }

@@ -97,6 +97,7 @@
      <Compile Include="Assets\Scripts\Troop\TroopHealthManager.cs" />
      <Compile Include="Assets\Scripts\Luffy\FistAttack.cs" />
      <Compile Include="Assets\Scripts\Troop\TroopMovement.cs" />
+     <Compile Include="Assets\Scripts\Troop\SwordAttack.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
