@@ -96,6 +96,7 @@
      <Compile Include="Assets\Scripts\Luffy\LuffyHealthManager.cs" />
      <Compile Include="Assets\Scripts\Troop\TroopHealthManager.cs" />
      <Compile Include="Assets\Scripts\Luffy\FistAttack.cs" />
+     <Compile Include="Assets\Scripts\Troop\TroopMovement.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -338,6 +339,9 @@
  </Reference>
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>/home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>/home/gfsb/Documents/UnityProjects/Luffy&apos;s Journey/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/home/gfsb/Unity/Hub/Editor/2019.4.15f1/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -779,6 +783,18 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{ac86ffbc-2bfe-b1b9-d436-1a596ffe5afa}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{2dae790e-7249-9c10-efe7-1b09874bcb78}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{8c988b7e-cc08-533f-b30f-d3113a04306c}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

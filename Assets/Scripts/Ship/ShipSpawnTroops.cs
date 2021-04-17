@@ -1,4 +1,5 @@
 using System;
+using Pathfinding;
 using UnityEngine;
 
 public class ShipSpawnTroops : MonoBehaviour
@@ -12,7 +13,6 @@ public class ShipSpawnTroops : MonoBehaviour
     private float remainingAnimationTime = 0f;
     [SerializeField]private Animator _animator;
     [SerializeField]private GameObject troopPrefab;
-
 
     private void Update()
     {
@@ -46,7 +46,10 @@ public class ShipSpawnTroops : MonoBehaviour
         for (int i = 0; i < spawnPositions.Length; i++)
         {
             GameObject troopGameObject = troopPrefab;
+            // Set Spawn position
             troopGameObject.transform.position = spawnPositions[i];
+
+            // Set player position for pathfinding algorithm
             Instantiate(troopGameObject);
         }
     }

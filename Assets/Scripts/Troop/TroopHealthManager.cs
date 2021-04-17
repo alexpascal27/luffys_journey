@@ -74,7 +74,6 @@ namespace Troop
             health -= healthDecreaseAmount;
             // Reduce health filling UI
             ChangeHealthBarFilling(-healthDecreaseAmount);
-            Debug.Log("Troop: Oh no i got damaged");
         }
     }
 }
