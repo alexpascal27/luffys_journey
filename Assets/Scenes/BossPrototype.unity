@@ -703,6 +703,7 @@ GameObject:
   - component: {fileID: 942895464}
   - component: {fileID: 942895469}
   - component: {fileID: 942895470}
+  - component: {fileID: 942895471}
   m_Layer: 0
   m_Name: Kizaru
   m_TagString: Boss
@@ -883,6 +884,29 @@ MonoBehaviour:
   healthBarFilling: {fileID: 726166006}
   spawnMeatWhenDead: 0
   meatPrefab: {fileID: 0}
+--- !u!114 &942895471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942895463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5fdb09edf0841b793a129ad2708a71c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilityCooldown: 5
+  animationNames:
+  - UpwardsKick
+  - HorizontalKick
+  - DownwardsKick
+  kickHitboxes: []
+  raycastDistance: 2
+  environmentLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  dashPositionalOffSet: {x: 1, y: 1.5}
 --- !u!1 &976634618
 GameObject:
   m_ObjectHideFlags: 0

@@ -103,6 +103,7 @@
      <Compile Include="Assets\Scripts\Luffy\CharacterController2D.cs" />
      <Compile Include="Assets\Scripts\Aokiji\BossHealthManager.cs" />
      <Compile Include="Assets\Scripts\DisableScriptsAtStart.cs" />
+     <Compile Include="Assets\Scripts\Kizaru\KizaruAbility1.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
