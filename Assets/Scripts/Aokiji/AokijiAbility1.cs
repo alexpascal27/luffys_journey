@@ -1,16 +1,29 @@
 using System;
 using System.Linq;
+using DefaultNamespace;
 using UnityEngine;
 
 namespace Aokiji
 {
     public class AokijiAbility1 : MonoBehaviour
     {
+        private BasicBossMovement _basicBossMovement;
+        
         // Cooldown
         [SerializeField] private float abilityCooldown = 5f;
         private bool _abilityOnCooldown = true;
         private float _remainingCooldownPeriod = 0f;
         
+        // Animations
+        private Animator _animator;
+        private const float FreezeUnfreezeAnimationTime = 0.33f;
+        private float _remainingAnimationTime = 0f;
+        private bool _freezing = false;
+        private bool _isStill = false;
+        private bool _unfreezing = false;
+        [SerializeField] private float stillTime = 0.5f;
+        private float _remainingStillTime = 0f;
+
         // Ability 
         private const float CellRadius = 0.5f;
         [SerializeField] private float distanceBetweenCells = 0.1f;
@@ -25,6 +38,8 @@ namespace Aokiji
 
         private void Start()
         {
+            _basicBossMovement = GetComponent<BasicBossMovement>();
+            _animator = GetComponent<Animator>();
             _boxCollider2D = GetComponent<BoxCollider2D>();
         }
 
@@ -35,12 +50,24 @@ namespace Aokiji
             {
                 _remainingCooldownPeriod = abilityCooldown;
                 InitArrays();
+                // Spawn at aokiji location
+                _boxCollider2D.enabled = false;
+                frozenCellPrefab.transform.position = gameObject.transform.position;
+                Instantiate(frozenCellPrefab);
+                
                 _spawning = true;
             }
 
             // If in process in spawning
             if (_spawning)
             {
+                _basicBossMovement.DisableMovement();
+                _basicBossMovement.enabled = false;
+                
+                _freezing = true;
+                _animator.SetBool("Freezing", true);
+                _remainingAnimationTime = FreezeUnfreezeAnimationTime;
+
                 // If can spawn in a direction
                 if (_canSpawnInDirection.Any(x => x))
                 {
@@ -55,6 +82,36 @@ namespace Aokiji
                     _remainingCooldownPeriod = abilityCooldown;
                 }
                 
+            }
+            
+            // If finished freezing
+            if (_freezing && _remainingAnimationTime <= 0)
+            {
+                _freezing = false;
+                _animator.SetBool("Freezing", false);
+                _animator.SetBool("Frozen", true);
+                _isStill = true;
+                _remainingStillTime = stillTime;
+            }
+            
+            // If finished still
+            if (_isStill && _remainingStillTime <= 0)
+            {
+                _isStill = false;
+                _animator.SetBool("Frozen", false);
+                _animator.SetBool("Unfreezing", true);
+                _unfreezing = true;
+                _animator.SetBool("Unfreezing", true);
+                _remainingAnimationTime = FreezeUnfreezeAnimationTime;
+            }
+            
+            // If finished unfreezing
+            if (_unfreezing && _remainingAnimationTime <= 0)
+            {
+                _unfreezing = false;
+                _animator.SetBool("Unfreezing", false);
+                _basicBossMovement.enabled = true;
+                _boxCollider2D.enabled = true;
             }
         }
 
@@ -132,6 +189,8 @@ namespace Aokiji
         private void FixedUpdate()
         {
             if (_remainingCooldownPeriod > 0) _remainingCooldownPeriod -= Time.deltaTime;
+            if (_remainingAnimationTime > 0) _remainingAnimationTime -= Time.deltaTime;
+            if (_remainingStillTime > 0) _remainingStillTime -= Time.deltaTime;
         }
     }
 }

@@ -7,6 +7,9 @@ namespace DefaultNamespace
 {
     public class BasicBossMovement : MonoBehaviour
     {
+        private Animator _animator;
+        private SpriteRenderer _spriteRenderer;
+        
         [SerializeField] private bool checkHorizontally = true;
         [SerializeField] private bool checkVertically = true;
 
@@ -18,9 +21,12 @@ namespace DefaultNamespace
         private float _remainingSecondsInDirection = 0f;
         private Rigidbody2D rb;
         [SerializeField] private float movementSpeed = 1f;
-
+        private bool _facingRight = true;
+        
         private void Start()
         {
+            _spriteRenderer = GetComponent<SpriteRenderer>();
+            _animator = GetComponent<Animator>();
             rb = GetComponent<Rigidbody2D>();
             
             // Calculate the direction
@@ -45,14 +51,10 @@ namespace DefaultNamespace
                 directions = new[] {Vector2.up, Vector2.down};
             }
 
-            Debug.Log("Before Shuffle");
-            PrintArray(directions);
             // Shuffle array
             Random random = new Random();
             directions = directions.OrderBy(c => random.Next()).ToArray();
             
-            Debug.Log("After Shuffle");
-            PrintArray(directions);
 
             float biggestDistance = -Mathf.Infinity;
             int directionIndex = 0;
@@ -94,10 +96,29 @@ namespace DefaultNamespace
 
         private void Update()
         {
+            ManageFlip();
+            _animator.SetFloat("MovementSpeed", GetFloatVelocity(rb.velocity));
             if (_remainingSecondsInDirection <= 0)
             {
                 SetDirectionOfMovement();
                 _remainingSecondsInDirection = secondsInDirection;
+            }
+        }
+
+        private float GetFloatVelocity(Vector3 velocity)
+        {
+            if (velocity.x != 0) return Mathf.Abs(velocity.x);
+            if (velocity.y != 0) return Mathf.Abs(velocity.y);
+            return 0f;
+        }
+
+        private void ManageFlip()
+        {
+            // If facing right but moving left or facing left but moving right then FLIP
+            if ((_facingRight && rb.velocity.x < 0) || (!_facingRight && rb.velocity.x > 0))
+            {
+                _spriteRenderer.flipX = !_spriteRenderer.flipX;
+                _facingRight = !_facingRight;
             }
         }
 
@@ -106,6 +127,12 @@ namespace DefaultNamespace
             if (_remainingSecondsInDirection > 0) _remainingSecondsInDirection -= Time.deltaTime;
 
             rb.velocity = _direction * (movementSpeed * Time.fixedDeltaTime);
+        }
+
+        public void DisableMovement()
+        {
+            rb.velocity = Vector2.zero;
+            _animator.SetFloat("MovementSpeed", 0f);
         }
     }
 }
