@@ -16,18 +16,10 @@ namespace Mine
 
         [SerializeField] private BoxCollider2D swordBoxCollider2D;
         private Rigidbody2D _rb;
-        
-        // AI Scripts
-        private Seeker _seeker;
-        private AIPath _aiPath;
-        private AIDestinationSetter _aiDestinationSetter;
 
         private void Start()
         {
             _rb = GetComponent<Rigidbody2D>();
-            //_seeker = GetComponent<Seeker>();
-            _aiPath = GetComponent<AIPath>();
-            _aiDestinationSetter = GetComponent<AIDestinationSetter>();
         }
 
         public void Attack()
@@ -56,6 +48,7 @@ namespace Mine
             // If Sword is released
            if (attacking && remainingSwordReleaseTime <= 0)
            {
+               remainingSwordReleaseTime = 10f * (remainingAnimationTime + remainingSwordReleaseTime);
                swordBoxCollider2D.enabled = true;
            }
            // If finished attacking
@@ -66,11 +59,6 @@ namespace Mine
                 swordBoxCollider2D.enabled = false;
                 
                 _rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-
-                // Enable AI scripts
-                //_seeker.enabled = true;
-                //_aiPath.enabled = true;
-                //_aiDestinationSetter.enabled = true;
             }
         }
 
