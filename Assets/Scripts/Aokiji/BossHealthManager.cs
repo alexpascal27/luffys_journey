@@ -9,13 +9,15 @@ namespace Aokiji
         private BoxCollider2D _boxCollider2D;
 
         private Vector2 _deathAnimationDestinationPoint;
-        [SerializeField] private float movementSpeed;
+        private float movementSpeed = 0f;
         
         private float _health = 100f;
 
         private Animator _animator;
         [SerializeField] private String leaveAnimationName;
+        [SerializeField] private float leaveAnimationTime;
         private bool _leaving = false;
+        private Vector3 _bottomLeft;
 
         [Range(0f, 100f)][SerializeField] private float healthDecreaseAmount;
         [SerializeField] private GameObject healthBarFilling;
@@ -27,6 +29,7 @@ namespace Aokiji
         {
             _animator = GetComponent<Animator>();
             _boxCollider2D = GetComponent<BoxCollider2D>();
+            _bottomLeft = Camera.main.ScreenToWorldPoint(Vector3.zero);
         }
 
         private void Update()
@@ -40,12 +43,13 @@ namespace Aokiji
                     _leaving= true;
                     DisableScripts();
                     CalculateEndDestination();
+                    CalculateMovementSpeed();
                 }
             }
             else
             {
                 // if death animation finishes, die
-                if ((Vector2)gameObject.transform.position == _deathAnimationDestinationPoint)
+                if (IsPositionOutsideOfScreen((Vector2)gameObject.transform.position))
                 {
                     if (spawnMeatWhenDead)
                     {
@@ -56,6 +60,13 @@ namespace Aokiji
                     Destroy(gameObject);
                 }
             }
+        }
+        
+        private bool IsPositionOutsideOfScreen(Vector3 position)
+        {
+            // If position on right of screen or on left of screen or above or below
+            return position.x > -_bottomLeft.x || position.x < _bottomLeft.x || position.y > -_bottomLeft.y ||
+                   position.y < _bottomLeft.y;
         }
 
         private void CalculateEndDestination()
@@ -79,6 +90,14 @@ namespace Aokiji
 
             _deathAnimationDestinationPoint = destinationPoint;
         }
+
+        private void CalculateMovementSpeed()
+        {
+            float distance = ((Vector2) gameObject.transform.position - _deathAnimationDestinationPoint).magnitude;
+            // Speed = distance/time
+            movementSpeed = distance / leaveAnimationTime;
+        }
+        
 
         private void DisableScripts()
         {

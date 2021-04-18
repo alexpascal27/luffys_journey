@@ -289,8 +289,8 @@ MonoBehaviour:
   scriptsToDisableOnDeath:
   - {fileID: 2838799926718563936}
   - {fileID: 2838799926718563951}
-  movementSpeed: 2
   leaveAnimationName: Bike Ride
+  leaveAnimationTime: 1.375
   healthDecreaseAmount: 5
   healthBarFilling: {fileID: 2838799927159425367}
   spawnMeatWhenDead: 0
