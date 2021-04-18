@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 790252549}
   - component: {fileID: 790252548}
   - component: {fileID: 790252547}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Grid
   m_TagString: Environment
   m_Icon: {fileID: 0}
@@ -1019,6 +1019,7 @@ GameObject:
   - component: {fileID: 1497065987}
   - component: {fileID: 1497065986}
   - component: {fileID: 1497065991}
+  - component: {fileID: 1497065992}
   m_Layer: 0
   m_Name: Aokiji
   m_TagString: Untagged
@@ -1151,7 +1152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497065985}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 4.43, y: -1.84, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1164,7 +1165,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497065985}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9187e8f849b64e23b218d9c40919f09d, type: 3}
   m_Name: 
@@ -1172,6 +1173,26 @@ MonoBehaviour:
   abilityCooldown: 5
   distanceBetweenCells: 0.35
   frozenCellPrefab: {fileID: 287870062280670164, guid: e9702874a4e90372685d7e6ee156c336, type: 3}
+--- !u!114 &1497065992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497065985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c887f0044f4ec7945b951f93f38765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkHorizontally: 1
+  checkVertically: 1
+  raycastDistance: 3
+  environmentLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  secondsInDirection: 3
+  movementSpeed: 100
 --- !u!1 &1730029642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,7 +1480,7 @@ GameObject:
   - component: {fileID: 1831733301}
   - component: {fileID: 1831733303}
   - component: {fileID: 1831733302}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tilemap_background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
