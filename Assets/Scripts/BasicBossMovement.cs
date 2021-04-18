@@ -44,10 +44,15 @@ namespace DefaultNamespace
             {
                 directions = new[] {Vector2.up, Vector2.down};
             }
-            
+
+            Debug.Log("Before Shuffle");
+            PrintArray(directions);
             // Shuffle array
             Random random = new Random();
-            directions.OrderBy(c => random.Next());
+            directions = directions.OrderBy(c => random.Next()).ToArray();
+            
+            Debug.Log("After Shuffle");
+            PrintArray(directions);
 
             float biggestDistance = -Mathf.Infinity;
             int directionIndex = 0;
@@ -57,6 +62,7 @@ namespace DefaultNamespace
                 // Shoot a raycast
                 RaycastHit2D raycastHit2D =
                     Physics2D.Raycast(gameObject.transform.position, directions[i], raycastDistance, environmentLayerMask);
+                Debug.DrawRay(gameObject.transform.position, directions[i] * raycastDistance);
 
                 // If no collider, pick that direction
                 if (raycastHit2D.collider == null)
@@ -75,6 +81,15 @@ namespace DefaultNamespace
             }
 
             _direction = directions[directionIndex];
+        }
+        
+        private void PrintArray(Vector2[] array)
+        {
+            Debug.Log("PrintingVector2Array: " );
+            foreach(var element in array)
+            {
+                Debug.Log(element);
+            }
         }
 
         private void Update()
