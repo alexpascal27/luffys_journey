@@ -11,6 +11,7 @@ TagManager:
   - Meat
   - UI
   - Boss
+  - Frozen Cell
   layers:
   - Default
   - TransparentFX

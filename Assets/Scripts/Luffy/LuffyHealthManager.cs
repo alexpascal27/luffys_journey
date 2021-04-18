@@ -16,6 +16,8 @@ namespace Luffy
         
         [SerializeField] private GameObject healthBarFilling;
 
+        private bool _touchingIce = false;
+        
         private void Start()
         {
             currentDecreaseTimer = decreaseHealthEveryXSeconds;
@@ -103,6 +105,26 @@ namespace Luffy
             {
                 HealLuffy();
                 Destroy(collisionGameObject);
+            }
+            else if (collisionGameObject.CompareTag("Frozen Cell"))
+            {
+                if (!_touchingIce)
+                {
+                    DamageLuffy(false);
+                    _touchingIce = true;
+                }
+            }
+        }
+
+        private void OnCollisionExit2D(Collision2D other)
+        {
+            GameObject collisionGameObject = other.gameObject;
+            if (collisionGameObject.CompareTag("Frozen Cell"))
+            {
+                if (_touchingIce)
+                {
+                    _touchingIce = false;
+                }
             }
         }
     }
