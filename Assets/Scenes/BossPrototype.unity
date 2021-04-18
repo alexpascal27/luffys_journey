@@ -1102,9 +1102,10 @@ GameObject:
   - component: {fileID: 1497065986}
   - component: {fileID: 1497065991}
   - component: {fileID: 1497065992}
+  - component: {fileID: 1497065993}
   m_Layer: 0
   m_Name: Aokiji
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1278,6 +1279,27 @@ MonoBehaviour:
     m_Bits: 8
   secondsInDirection: 3
   movementSpeed: 100
+--- !u!114 &1497065993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497065985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d28003507c49e9b0f1ce0407f575d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptsToDisableOnDeath:
+  - {fileID: 1497065991}
+  - {fileID: 1497065992}
+  movementSpeed: 2
+  leaveAnimationName: Bike Ride
+  healthDecreaseAmount: 50
+  healthBarFilling: {fileID: 1139959088}
+  spawnMeatWhenDead: 0
+  meatPrefab: {fileID: 2107151977625615400, guid: aab41fe08b86a6920ae72ef554faa09a, type: 3}
 --- !u!1 &1544057144
 GameObject:
   m_ObjectHideFlags: 0

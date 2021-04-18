@@ -7,15 +7,22 @@ namespace Troop
     {
         private float health = 100f;
 
-        [SerializeField] private Animator animator;
+        private Animator _animator;
+        [SerializeField] private String deathAnimationName;
+        [SerializeField] private float deathAnimationDuration;
         private bool dying = false;
-        private const float DeathAnimationTimer = 0.75f;
         private float remainingDeathTimer = 0f;
 
         [Range(0f, 100f)][SerializeField] private float healthDecreaseAmount;
         [SerializeField] private GameObject healthBarFilling;
 
+        [SerializeField] private bool spawnMeatWhenDead = true;
         [SerializeField] private GameObject meatPrefab;
+
+        private void Start()
+        {
+            _animator = GetComponent<Animator>();
+        }
 
         private void Update()
         {
@@ -24,9 +31,9 @@ namespace Troop
                 // If die
                 if (health <= 0)
                 {
-                    animator.SetBool("Dying", true);
+                    _animator.SetBool(deathAnimationName, true);
                     dying = true;
-                    remainingDeathTimer = DeathAnimationTimer;
+                    remainingDeathTimer = deathAnimationDuration;
                 }
             }
             else
@@ -34,8 +41,12 @@ namespace Troop
                 // if death animation finishes, die
                 if (remainingDeathTimer <= 0f)
                 {
-                    meatPrefab.transform.position = gameObject.transform.position;
-                    Instantiate(meatPrefab);
+                    if (spawnMeatWhenDead)
+                    {
+                        meatPrefab.transform.position = gameObject.transform.position;
+                        Instantiate(meatPrefab);
+                    }
+                    
                     Destroy(gameObject);
                 }
             }

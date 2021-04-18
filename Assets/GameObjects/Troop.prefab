@@ -324,9 +324,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b55aeed359c54dc5b9933a59d1afeef2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 2904671861858874866}
+  deathAnimationName: Dying
+  deathAnimationDuration: 0.75
   healthDecreaseAmount: 25
   healthBarFilling: {fileID: 8781736340155928347}
+  spawnMeatWhenDead: 1
   meatPrefab: {fileID: 2107151977625615400, guid: aab41fe08b86a6920ae72ef554faa09a, type: 3}
 --- !u!114 &6322473937617326767
 MonoBehaviour:

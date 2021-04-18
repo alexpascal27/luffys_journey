@@ -1,4 +1,5 @@
 using System;
+using Aokiji;
 using Troop;
 using UnityEngine;
 
@@ -13,6 +14,11 @@ namespace Luffy
             {
                 TroopHealthManager troopHealthManager = colliderGameObject.GetComponent<TroopHealthManager>();
                 troopHealthManager.DamageTroop();
+            }
+            else if(colliderGameObject.CompareTag("Boss"))
+            {
+                BossHealthManager bossHealthManager = colliderGameObject.GetComponent<BossHealthManager>();
+                bossHealthManager.DamageBoss();
             }
         }
     }
