@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using DefaultNamespace;
 using UnityEngine;
@@ -10,6 +11,8 @@ namespace Kizaru
     {
         private BasicBossMovement _basicBossMovement;
         private BoxCollider2D _kizaruBodyBoxCollider2D;
+        private Rigidbody2D _kizaryRigidBody2d;
+        private List<GameObject> _childrenGameObjects;
         
         // Cooldown
         [SerializeField] private float abilityCooldown = 5f;
@@ -28,6 +31,7 @@ namespace Kizaru
         private bool _dashingTo = false;
         private bool _dashingFrom = false;
         private bool _kicking = false;
+        private bool _flippedWhileKicking = false;
         private float _remainingAnimationTime = 0f;
         
         // Dash positional stats
@@ -44,11 +48,15 @@ namespace Kizaru
         private void Start()
         {
             _basicBossMovement = GetComponent<BasicBossMovement>();
-            _remainingCooldownPeriod = abilityCooldown;
+            _kizaryRigidBody2d = GetComponent<Rigidbody2D>();
             _animator = GetComponent<Animator>();
             _kizaruBodyBoxCollider2D = GetComponent<BoxCollider2D>();
+            _childrenGameObjects = new List<GameObject>();
+            
             
             _playerGameObject = GameObject.Find("Luffy");
+                
+            _remainingCooldownPeriod = abilityCooldown;
         }
 
         private void Update()
@@ -62,7 +70,6 @@ namespace Kizaru
                 
                 _kizaruBodyBoxCollider2D.enabled = false;
                 _basicBossMovement.enabled = false;
-                Debug.Log("OFF COOLDOWN, DASHING TO PLAYER");
             }
             
             // If finished dashing to kick
@@ -72,7 +79,6 @@ namespace Kizaru
                 
                 Kick();
                 _animator.SetBool("Dashing", false);
-                Debug.Log("AT PLAYER, NOW KICKING");
             }
             
             // If finished kicking and need to dash to original position
@@ -82,7 +88,14 @@ namespace Kizaru
                 _animator.SetBool(animationNames[_directionIndex], false);
                 
                 Dash(false);
-                Debug.Log("FINISHED KICKING, NOW BACK TO ORIGINAL POSITION");
+                // Unfreeze movement
+                _kizaryRigidBody2d.constraints = RigidbodyConstraints2D.FreezeRotation;
+                if (_flippedWhileKicking)
+                {
+                    _flippedWhileKicking = false;
+                    FlipKizaru();
+                }
+                kickHitboxes[_directionIndex].enabled = false;
             }
             
             // If finished dashing back go on cooldown
@@ -96,7 +109,6 @@ namespace Kizaru
                 _remainingCooldownPeriod = abilityCooldown;
                 
                 _basicBossMovement.enabled = true;
-                Debug.Log("BACK AT ORIGINAL POSITION, NOW ON COOLDOWN");
             }
         }
 
@@ -136,6 +148,7 @@ namespace Kizaru
             if (freestDirection.Equals(Vector2.up)) _directionIndex = 2;
             else _directionIndex = 1;
             // Set dash location
+            
             _dashLocation = new Vector3(playerPosition.x + freestDirection.x * dashPositionalOffSet.x,
                 playerPosition.y + freestDirection.y * dashPositionalOffSet.y);
             Debug.Log("DashLocation: " + _dashLocation);
@@ -186,8 +199,50 @@ namespace Kizaru
         {
             _kicking = true;
             _remainingAnimationTime = _kickAnimationTimes[_directionIndex];
-            // Turn hitbox on
+            
+            // Flip if facing other way
+            if (gameObject.transform.position.x < _dashLocation.x)
+            {
+                FlipKizaru();
+                _flippedWhileKicking = true;
+            }
+            
+            // Enable hitbox
+            kickHitboxes[_directionIndex].enabled = true;
             _animator.SetBool(animationNames[_directionIndex], true);
+            // Movement is frozen
+            _kizaryRigidBody2d.constraints = RigidbodyConstraints2D.FreezeAll;
+        }
+
+        private void FlipKizaru()
+        {
+            DetachChildren();
+            transform.Rotate(0f, 180f, 0f);
+            AttackChildren();
+        }
+        
+        private void DetachChildren()
+        {
+            for (int i = 0; i < gameObject.transform.childCount; i++)
+            {
+                GameObject child = gameObject.transform.GetChild(i).gameObject;
+                if (child.CompareTag("UI"))
+                {
+                    _childrenGameObjects.Add(child);
+                    child.transform.parent = null;
+                }
+            }
+        }
+
+        private void AttackChildren()
+        {
+            for (int i = 0; i < _childrenGameObjects.Count; i++)
+            {
+                GameObject child = _childrenGameObjects[i];
+                child.transform.parent = gameObject.transform;
+            }
+
+            _childrenGameObjects = new List<GameObject>();
         }
 
         private void FixedUpdate()
