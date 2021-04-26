@@ -1136,7 +1136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af516180f5b35f4a852745e7d1cae97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeInMinutes: 0.05
+  timeInMinutes: 2
   timerTextUI: {fileID: 859201175}
   houseInWayOfNextLevel: {fileID: 542981573}
 --- !u!114 &859201175
@@ -1290,6 +1290,14 @@ PrefabInstance:
     - target: {fileID: 4362929694468812646, guid: 24a305c58c460270883665e2a2d0ef72, type: 3}
       propertyPath: m_Name
       value: Luffy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4362929694468812654, guid: 24a305c58c460270883665e2a2d0ef72, type: 3}
+      propertyPath: attackDamage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4362929694468812654, guid: 24a305c58c460270883665e2a2d0ef72, type: 3}
+      propertyPath: healthDecreaseAmount
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a305c58c460270883665e2a2d0ef72, type: 3}
@@ -1590,7 +1598,7 @@ MonoBehaviour:
   - {x: 6.5, y: -2.5, z: 0}
   - {x: 5.5, y: -2.5, z: 0}
   - {x: 6, y: -1.5, z: 0}
-  spawnCooldown: 10
+  spawnCooldown: 25
   animationTime: 4.5
   _animator: {fileID: 1266051785}
   troopPrefab: {fileID: 5344183122640880051, guid: e5da228b18c81f5e5a8d7b0c7da4654d, type: 3}
