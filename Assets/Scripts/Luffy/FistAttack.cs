@@ -1,5 +1,6 @@
 using System;
 using Aokiji;
+using DefaultNamespace;
 using Troop;
 using UnityEngine;
 
@@ -22,12 +23,20 @@ namespace Luffy
                 TroopHealthManager troopHealthManager = colliderGameObject.GetComponent<TroopHealthManager>();
                 troopHealthManager.DamageTroop();
                 _boxCollider2D.enabled = false;
+                
+                // Increase number of times luffy hit troops
+                PlayerPrefsManager playerPrefsManager = new PlayerPrefsManager();
+                playerPrefsManager.IncrementDamageToEnemyTroops();
             }
             else if(colliderGameObject.CompareTag("Boss"))
             {
                 BossHealthManager bossHealthManager = colliderGameObject.GetComponent<BossHealthManager>();
                 bossHealthManager.DamageBoss();
                 _boxCollider2D.enabled = false;
+                
+                // Increase number of times luffy hit troops
+                PlayerPrefsManager playerPrefsManager = new PlayerPrefsManager();
+                playerPrefsManager.IncrementDamageToEnemyBosses();
             }
         }
     }

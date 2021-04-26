@@ -1,4 +1,5 @@
 using System;
+using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -112,6 +113,10 @@ namespace Luffy
                 {
                     DamageLuffy(false);
                     _touchingIce = true;
+                    
+                    // Increase number of times luffy got hit
+                    PlayerPrefsManager playerPrefsManager = new PlayerPrefsManager();
+                    playerPrefsManager.IncrementDamageFromEnemyBosses();
                 }
             }
         }

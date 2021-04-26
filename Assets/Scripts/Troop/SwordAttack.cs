@@ -1,4 +1,5 @@
 using System;
+using DefaultNamespace;
 using Luffy;
 using UnityEngine;
 
@@ -21,6 +22,10 @@ namespace Troop
                 LuffyHealthManager luffyHealthManager = colliderGameObject.GetComponent<LuffyHealthManager>();
                 luffyHealthManager.DamageLuffy(false);
                 _boxCollider2D.enabled = false;
+                
+                // Increase number of times luffy got hit
+                PlayerPrefsManager playerPrefsManager = new PlayerPrefsManager();
+                playerPrefsManager.IncrementDamageFromEnemyTroops();
             }
         }
     }
