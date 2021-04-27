@@ -10,6 +10,7 @@ namespace DefaultNamespace
         private const String LevelHasBoss = "DoesLevelHaveBoss";
         private const String DamageToEnemyBosses = "NumberOfTimesHitEnemyBoss";
         private const String DamageFromEnemyBosses = "NumberOfTimesGotHitByEnemyBoss";
+        private const String CurrentLevel = "WhatIsTheCurrentLevel";
 
         public void ResetPrefs(bool doesLevelHaveBoss)
         {
@@ -26,6 +27,7 @@ namespace DefaultNamespace
                 PlayerPrefs.DeleteKey(DamageToEnemyBosses);
                 PlayerPrefs.DeleteKey(DamageFromEnemyBosses);
             }
+            PlayerPrefs.SetInt(CurrentLevel, 0);
         }
         
         public void IncrementDamageToEnemyTroops()
@@ -100,6 +102,24 @@ namespace DefaultNamespace
             PlayerPrefs.Save();
         }
 
+        public void IncrementCurrentLevel()
+        {
+            int currentNumber;
+            // If not there
+            if (PlayerPrefs.HasKey(CurrentLevel))
+            {
+                currentNumber = PlayerPrefs.GetInt(CurrentLevel);
+            }
+            else
+            {
+                currentNumber = 0;
+            }
+            
+            // Store new value
+            PlayerPrefs.SetInt(CurrentLevel, currentNumber + 1);
+            PlayerPrefs.Save();
+        }
+
         public int GetDamageToEnemyTroops()
         {
             if (!PlayerPrefs.HasKey(DamageToEnemyTroops)) return -1;
@@ -128,6 +148,12 @@ namespace DefaultNamespace
         {
             if (!PlayerPrefs.HasKey(DamageFromEnemyBosses)) return -1;
             return PlayerPrefs.GetInt(DamageFromEnemyBosses);
+        }
+
+        public int GetCurrentLevel()
+        {
+            if (!PlayerPrefs.HasKey(CurrentLevel)) return 0;
+            return PlayerPrefs.GetInt(CurrentLevel);
         }
     }
 }

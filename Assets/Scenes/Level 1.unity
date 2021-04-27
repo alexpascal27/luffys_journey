@@ -753,7 +753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af516180f5b35f4a852745e7d1cae97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeInMinutes: 0.05
+  timeInMinutes: 1
   timerTextUI: {fileID: 976634620}
   houseInWayOfNextLevel: {fileID: 1473746773}
 --- !u!1 &1343370124
@@ -1277,6 +1277,7 @@ MonoBehaviour:
   - {x: 6, y: -1.5, z: 0}
   - {x: -8.2, y: 4.2, z: 0}
   - {x: 0, y: -3.5, z: 0}
+  - {x: 6, y: 4.2, z: 0}
   spawnCooldown: 10
   animationTime: 4.5
   _animator: {fileID: 1784477335}
