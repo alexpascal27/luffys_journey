@@ -356,7 +356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &95827690
 RectTransform:
   m_ObjectHideFlags: 0
@@ -565,7 +565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &289623448
 RectTransform:
   m_ObjectHideFlags: 0
@@ -863,7 +863,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &449842241
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2870,7 +2870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1317594331
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4215,7 +4215,17 @@ MonoBehaviour:
   bountyPosterText: {fileID: 125528820}
   doesLevelHaveBoss: 0
   timeBetweenStatsReveal: 1
-  timeBetweenBossReveal: 5
+  timeBetweenBossReveal: 3
+  elementsToHide:
+  - {fileID: 1628747656}
+  - {fileID: 125528818}
+  elementsToShow:
+  - {fileID: 2050001147}
+  - {fileID: 2029031901}
+  - {fileID: 289623447}
+  - {fileID: 95827689}
+  - {fileID: 449842240}
+  - {fileID: 1317594330}
 --- !u!1 &1895387902
 GameObject:
   m_ObjectHideFlags: 0
@@ -4501,7 +4511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2029031902
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4634,7 +4644,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2050001148
 SpriteRenderer:
   m_ObjectHideFlags: 0

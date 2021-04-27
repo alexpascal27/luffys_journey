@@ -8,29 +8,32 @@ namespace DefaultNamespace.UI
 {
     public class BountyCalculation : MonoBehaviour
     {
+        // Stats UI elements
         [SerializeField] private TMP_Text damageToEnemyTroopsText;
         [SerializeField] private TMP_Text damageFromEnemyTroopsText;
         [SerializeField] private TMP_Text damageToEnemyBossesText;
         [SerializeField] private TMP_Text damageFromEnemyBossesText;
         [SerializeField] private TMP_Text totalText;
         [SerializeField] private TMP_Text bountyPosterText;
-
+        // Showing stats
         [SerializeField] private bool doesLevelHaveBoss;
         private List<int> _statIntList;
         private int[] _intScaleList = new[] {5000, -1000, 15000, -3000};
-        
-        
         private PlayerPrefsManager _playerPrefsManager;
         private List<TMP_Text> _statsTextList;
         private int _numberOfStats;
         private int _currentStatIndex = 0;
-        
+        // Animation stuff
         [SerializeField] private float timeBetweenStatsReveal;
         [SerializeField] private float timeBetweenBossReveal;
         private bool _waitingForStatReveal = true;
         private bool _waitingForBossReveal = false;
         private float _remainingWaitTime;
-
+        // UI elements to show on boss show
+        [SerializeField] private GameObject[] elementsToHide;
+        // UI elements to hide on boss show
+        [SerializeField] private GameObject[] elementsToShow;
+        
         private void Start()
         {
             _remainingWaitTime = timeBetweenStatsReveal;
@@ -102,9 +105,28 @@ namespace DefaultNamespace.UI
             // If finished Boss reveal
             if (_waitingForBossReveal && _remainingWaitTime <= 0)
             {
-                Debug.Log("Time to show boss");
+                ShowBoss();
                 _waitingForBossReveal = false;
             }
+        }
+
+        private void ShowBoss()
+        {
+            // hide stuff
+            foreach (GameObject gameObjectToHide in elementsToHide)
+            {
+                gameObjectToHide.SetActive(false);
+            }
+            
+            // show stuff
+            foreach (GameObject gameObjectToShow in elementsToShow)
+            {
+                gameObjectToShow.SetActive(true);
+            }
+            
+            // Decide boss
+            
+            // Output boss on UI
         }
 
         private void FixedUpdate()
