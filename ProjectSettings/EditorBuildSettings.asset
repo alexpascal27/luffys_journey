@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lose Screen.unity
     guid: 6893e5ff4487096e5a5142284b315c01
+  - enabled: 1
+    path: Assets/Scenes/BountyCalculation.unity
+    guid: 522618cd690db441792b6951c308d111
   m_configObjects: {}

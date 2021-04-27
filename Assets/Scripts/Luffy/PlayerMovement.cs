@@ -78,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene(nextIndex);
+                SceneManager.LoadScene(6);
             }
         }
     }

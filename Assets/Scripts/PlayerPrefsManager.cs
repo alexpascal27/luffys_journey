@@ -60,7 +60,7 @@ namespace DefaultNamespace
             }
             
             // Store new value
-            PlayerPrefs.SetInt(DamageFromEnemyTroops, currentNumber - 1);
+            PlayerPrefs.SetInt(DamageFromEnemyTroops, currentNumber + 1);
             PlayerPrefs.Save();
         }
         
@@ -96,10 +96,38 @@ namespace DefaultNamespace
             }
             
             // Store new value
-            PlayerPrefs.SetInt(DamageFromEnemyBosses, currentNumber - 1);
+            PlayerPrefs.SetInt(DamageFromEnemyBosses, currentNumber + 1);
             PlayerPrefs.Save();
         }
+
+        public int GetDamageToEnemyTroops()
+        {
+            if (!PlayerPrefs.HasKey(DamageToEnemyTroops)) return -1;
+            return PlayerPrefs.GetInt(DamageToEnemyTroops);
+        }
         
+        public int GetDamageFromEnemyTroops()
+        {
+            if (!PlayerPrefs.HasKey(DamageFromEnemyTroops)) return -1;
+            return PlayerPrefs.GetInt(DamageFromEnemyTroops);
+        }
         
+        public bool GetDoesLevelHaveBoss()
+        {
+            if (!PlayerPrefs.HasKey(LevelHasBoss)) return false;
+            return PlayerPrefs.GetInt(LevelHasBoss) == 1;
+        }
+        
+        public int GetDamageToEnemyBosses()
+        {
+            if (!PlayerPrefs.HasKey(DamageToEnemyBosses)) return -1;
+            return PlayerPrefs.GetInt(DamageToEnemyBosses);
+        }
+        
+        public int GetDamageFromEnemyBosses()
+        {
+            if (!PlayerPrefs.HasKey(DamageFromEnemyBosses)) return -1;
+            return PlayerPrefs.GetInt(DamageFromEnemyBosses);
+        }
     }
 }
