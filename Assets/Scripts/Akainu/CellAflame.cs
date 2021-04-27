@@ -14,7 +14,8 @@ public class CellAflame : MonoBehaviour
     private float remainingCellAflameAnimationPeriod = 0f;
     
     [SerializeField] private Animator _ability1Animator;
-
+    [SerializeField] private BoxCollider2D[] boxCollider2Ds;    
+        
     private void Start()
     {
         remainingWarningAnimationPeriod = warningAnimationPeriod;
@@ -46,13 +47,21 @@ public class CellAflame : MonoBehaviour
             aflameAnimating = true;
             _ability1Animator.SetBool("Flame" , true);
             remainingCellAflameAnimationPeriod = cellAflameAnimationPeriod;
+            // Enable collider
+            foreach (BoxCollider2D flameCollider in boxCollider2Ds)
+            {
+                flameCollider.enabled = true;
+            }
         }
         // Finished cell blazing
         if (aflameAnimating && remainingCellAflameAnimationPeriod <= 0)
         {
             aflameAnimating = false;
             _ability1Animator.SetBool("Flame", false);
-            
+            foreach (BoxCollider2D flameCollider in boxCollider2Ds)
+            {
+                flameCollider.enabled = false;
+            }
             Destroy(gameObject);
         }
     }
