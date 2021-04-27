@@ -1,3 +1,4 @@
+using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -24,5 +25,19 @@ public class UIButtonBehaviour : MonoBehaviour
     {
         // load main screen
         SceneManager.LoadScene(3);
+    }
+
+    public void OnNextLevelButtonClick()
+    {
+        PlayerPrefsManager playerPrefsManager = new PlayerPrefsManager();
+        
+        // Get current level
+        int currentLevel = playerPrefsManager.GetCurrentLevel();
+        
+        // Increment current level
+        playerPrefsManager.IncrementCurrentLevel();
+        
+        // Change scene
+        SceneManager.LoadScene(currentLevel + 1);
     }
 }
