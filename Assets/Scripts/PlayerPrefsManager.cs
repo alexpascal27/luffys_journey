@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -11,6 +12,7 @@ namespace DefaultNamespace
         private const String DamageToEnemyBosses = "NumberOfTimesHitEnemyBoss";
         private const String DamageFromEnemyBosses = "NumberOfTimesGotHitByEnemyBoss";
         private const String CurrentLevel = "WhatIsTheCurrentLevel";
+        private const String BossListForLevel = "WhatBossesToSpawnForThisLevel";
 
         public void ResetPrefs(bool doesLevelHaveBoss)
         {
@@ -27,6 +29,10 @@ namespace DefaultNamespace
                 PlayerPrefs.DeleteKey(DamageToEnemyBosses);
                 PlayerPrefs.DeleteKey(DamageFromEnemyBosses);
             }
+        }
+
+        public void ResetCurrentLevel()
+        {
             PlayerPrefs.SetInt(CurrentLevel, 0);
         }
         
@@ -120,6 +126,24 @@ namespace DefaultNamespace
             PlayerPrefs.Save();
         }
 
+        public void SetBossesForThisLevel(int[] bossIndexList)
+        {
+            // Initialise the string
+            String listInStringForm = "";
+            for (int i = 0; i < bossIndexList.Length; i++)
+            {
+                listInStringForm += bossIndexList[i].ToString();
+                // if not last index, then add semicolon
+                if (i != bossIndexList.Length - 1)
+                {
+                    listInStringForm += ",";
+                }
+            }
+            
+            PlayerPrefs.SetString(BossListForLevel, listInStringForm);
+            PlayerPrefs.Save();
+        }
+
         public int GetDamageToEnemyTroops()
         {
             if (!PlayerPrefs.HasKey(DamageToEnemyTroops)) return -1;
@@ -154,6 +178,20 @@ namespace DefaultNamespace
         {
             if (!PlayerPrefs.HasKey(CurrentLevel)) return 0;
             return PlayerPrefs.GetInt(CurrentLevel);
+        }
+
+        public int[] GetBossListForLevel()
+        {
+            if (!PlayerPrefs.HasKey(BossListForLevel)) return new int[]{};
+            String listInStringForm = PlayerPrefs.GetString(BossListForLevel);
+            String[] indexes = listInStringForm.Split(',');
+            List<int> indexList = new List<int>();
+            foreach (String index in indexes)
+            {
+                indexList.Add(Int32.Parse(index));
+            }
+
+            return indexList.ToArray();
         }
     }
 }

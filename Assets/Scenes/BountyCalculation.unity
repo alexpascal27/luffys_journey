@@ -4238,7 +4238,6 @@ MonoBehaviour:
   damageFromEnemyBossesText: {fileID: 1018947628}
   totalText: {fileID: 815143697}
   bountyPosterText: {fileID: 125528820}
-  doesLevelHaveBoss: 0
   timeBetweenStatsReveal: 1
   timeBetweenBossReveal: 3
   elementsToHide:
@@ -4252,8 +4251,8 @@ MonoBehaviour:
   - {fileID: 449842240}
   - {fileID: 1317594330}
   bossIcons:
-  - {fileID: 21300000, guid: 617a7cd8169ad6ae38c48ffeabca1c79, type: 3}
   - {fileID: 21300000, guid: f2f2be641c7019f70a629bcfe47a2508, type: 3}
+  - {fileID: 21300000, guid: 617a7cd8169ad6ae38c48ffeabca1c79, type: 3}
   - {fileID: 21300000, guid: 39f7bf217a36d92e594ae61b0b550459, type: 3}
   bossNameText: {fileID: 289623449}
   bossIconImage: {fileID: 95827689}
@@ -4270,6 +4269,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e133f01c634620bb3e51482373ed50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelNumber: -1
+  doesLevelHaveBoss: 0
+  bossesPrefabs: []
 --- !u!1 &1895387902
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
+using DefaultNamespace;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace DefaultNamespace.UI
+namespace UI
 {
     public class BountyCalculation : MonoBehaviour
     {
@@ -18,7 +18,6 @@ namespace DefaultNamespace.UI
         [SerializeField] private TMP_Text bountyPosterText;
         
         // Showing stats
-        [SerializeField] private bool doesLevelHaveBoss;
         private List<int> _statIntList;
         private int[] _intScaleList = new[] {5000, -1000, 15000, -3000};
         private PlayerPrefsManager _playerPrefsManager;
@@ -39,13 +38,13 @@ namespace DefaultNamespace.UI
         [SerializeField] private GameObject[] elementsToShow;
         
         // Variables to help pick boss/bosses
-        private int _aokijiLevel1Threshold = 250000;
-        // first is threshold to spawn akainu and aokiji, second is akainu and kizaru, third is akainu, aokiji and kizaru
-        private int[] _level2BossThreshold = new[] {500000, 600000, 750000, 1000000};
+        private int _kizaruLevel1Threshold = 100000;
+        // first is threshold to spawn just akainu, second is akainu and kizaru, third is akainu and aokiji,  fourth is akainu, aokiji and kizaru
+        private int[] _level2BossThreshold = new[] {100000, 200000, 400000, 600000};
         
         // UI stuff to output change in Boss
-        private String[] _bossNames = new[] {"Aokiji", "Kizaru", "Akainu"};
-        private String[] _bossQuotes = new[] {"Get Ready to freeze!", "You might be fast, but you ain't faster than light.", "He’s the son of the legendary Dragon?"};
+        private String[] _bossNames = new[] {"Kizaru","Aokiji", "Akainu"};
+        private String[] _bossQuotes = new[] {"\"You might be fast, but you ain't faster than light.\"","\" Get Ready to freeze!\"", "\"He’s the son of the legendary Dragon?\""};
         [SerializeField] private Sprite[] bossIcons;
         [SerializeField] private TMP_Text bossNameText;
         [SerializeField] private GameObject bossIconImage;
@@ -71,7 +70,6 @@ namespace DefaultNamespace.UI
             }
 
             InitStats();
-            _playerPrefsManager.ResetPrefs(doesLevelHaveBoss);
         }
 
         private void InitStats()
@@ -145,6 +143,10 @@ namespace DefaultNamespace.UI
 
             // Decide boss
             int[] bossesPicked = DecideBoss(bountyTotal);
+            
+            // Store bossesPickedList
+            _playerPrefsManager.SetBossesForThisLevel(bossesPicked);
+            
             // Output boss on UI
             bossNameText.SetText(ConstructBossName(bossesPicked));
             bossIconImage.GetComponent<Image>().sprite = bossIcons[bossesPicked[0]];
@@ -158,8 +160,8 @@ namespace DefaultNamespace.UI
             // Coming from level 1
             if (level == 0)
             {
-                // if bounty above aokiji threshold - spawn kizaru
-                if (bountyTotal >= _aokijiLevel1Threshold)
+                // if bounty above kizaru threshold - spawn aokiji
+                if (bountyTotal >= _kizaruLevel1Threshold)
                 {
                     return new[] {1};
                 }
@@ -177,12 +179,12 @@ namespace DefaultNamespace.UI
                 {
                     return new[] {2, 1, 0};
                 }
-                // spawn kizaru and akainu
+                // spawn aokiji and akainu
                 else if (bountyTotal >= _level2BossThreshold[2])
                 {
                     return new[] {2, 1};
                 }
-                // spawn aokiji and akainu
+                // spawn kizaru and akainu
                 else if(bountyTotal >= _level2BossThreshold[1])
                 {
                     return new[] {2, 0};
