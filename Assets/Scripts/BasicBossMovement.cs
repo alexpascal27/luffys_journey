@@ -101,7 +101,7 @@ namespace DefaultNamespace
             if (_remainingSecondsInDirection <= 0)
             {
                 SetDirectionOfMovement();
-                _remainingSecondsInDirection = secondsInDirection;
+                _remainingSecondsInDirection =  UnityEngine.Random.Range(0, secondsInDirection);
             }
         }
 

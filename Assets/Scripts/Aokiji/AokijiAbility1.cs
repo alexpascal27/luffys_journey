@@ -41,6 +41,7 @@ namespace Aokiji
             _basicBossMovement = GetComponent<BasicBossMovement>();
             _animator = GetComponent<Animator>();
             _boxCollider2D = GetComponent<BoxCollider2D>();
+            _remainingCooldownPeriod = abilityCooldown;
         }
 
         private void Update()

@@ -40,7 +40,7 @@ namespace UI
         // Variables to help pick boss/bosses
         private int _kizaruLevel1Threshold = 100000;
         // first is threshold to spawn just akainu, second is akainu and kizaru, third is akainu and aokiji,  fourth is akainu, aokiji and kizaru
-        private int[] _level2BossThreshold = new[] {100000, 250000, 400000, 550000};
+        private int[] _level2BossThreshold = new[] {100000, 200000, 350000, 500000};
         
         // UI stuff to output change in Boss
         private String[] _bossNames = new[] {"Kizaru","Aokiji", "Akainu"};

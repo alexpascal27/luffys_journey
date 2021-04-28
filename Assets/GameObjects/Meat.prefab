@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2199287931626790140}
   - component: {fileID: 171113190214410339}
   - component: {fileID: -4384154869531834608}
+  - component: {fileID: 16762749285308614}
   m_Layer: 0
   m_Name: Meat
   m_TagString: Meat
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107151977625615400}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.7860613, y: 0.93100774, z: 0}
+  m_LocalPosition: {x: -3.810123, y: -1.7879014, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -131,3 +132,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &16762749285308614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107151977625615400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014d6313261644bdaa8c651358351307, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expiryTime: 3
