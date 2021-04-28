@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 2800
+  controlID: 6849
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 2801
+  controlID: 6850
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 88f6ffff4ef7ffff1ef8ffff60faffff3efbffff
+      m_ExpandedIDs: 6ea7ffff96a9ffff5eaaffff3cccffff9ad0ffff16dbffff76e8ffff88f6ffff4ef7ffff1ef8ffff60faffff3efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -284,21 +284,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animation
+    - Assets/GameObjects
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animation
+  - Assets/GameObjects
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/gfsb/Documents/UnityProjects/Luffy's Journey
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fa460000
-    m_LastClickedID: 18170
+    m_SelectedIDs: 00470000
+    m_LastClickedID: 18176
     m_ExpandedIDs: 00000000624600006446000066460000684600006a4600006c4600006e46000070460000724600007446000076460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000c4000007e4100005e57ffff244a00000e470000d84900000649000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -379,7 +379,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 309}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 144
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 2734
+  controlID: 6808
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TimelineWindow
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -572,14 +572,14 @@ MonoBehaviour:
     height: 328
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
   - {fileID: 13}
   - {fileID: 14}
   - {fileID: 15}
-  m_Selected: 2
-  m_LastSelected: 1
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 19344
+  m_LastSelectedObjectID: -12320
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -834,9 +834,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 6a56d52473f9b3d47ba0a1c201a1d9b3, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 3fd1f548e4399711e832a199917be764, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 7858846844796755563, guid: 6a56d52473f9b3d47ba0a1c201a1d9b3, type: 2}
+  - m_Target: {fileID: 1205011125535891203, guid: 3fd1f548e4399711e832a199917be764, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}

@@ -392,6 +392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 4362929694468812647}
   punchAnimationTime: 0.5
+  currentlyPunching: 0
   punchBoxCollider2D: {fileID: 4362929693964850123}
   controller: {fileID: 4362929694468812651}
   runSpeed: 150
@@ -408,8 +409,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   decreaseHealthEveryXSeconds: 10
-  healthDecreaseAmount: 5
-  attackDamage: 10
+  healthDecreaseAmount: 0
+  attackDamage: 5
   healAmount: 30
   healthBarFilling: {fileID: 4362929692528611880}
 --- !u!61 &2970128852371159618

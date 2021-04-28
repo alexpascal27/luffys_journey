@@ -6,11 +6,13 @@ using Random = System.Random;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private Rigidbody2D _rb;
+    
     // Animation
     [SerializeField] private Animator _animator;
     [SerializeField] private float punchAnimationTime = 1f;
     private float currentPunchAnimationTime = 0f;
-    private bool currentlyPunching = false;
+    public bool currentlyPunching = false;
     [SerializeField] private BoxCollider2D punchBoxCollider2D;
     
     // Movement
@@ -19,6 +21,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField][Range(0f,1000f)]private float runSpeed = 50f;
     float _horizontalMove = 0f;
     float _verticalMove = 0f;
+
+    private void Start()
+    {
+        _rb = GetComponent<Rigidbody2D>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -30,7 +37,8 @@ public class PlayerMovement : MonoBehaviour
                 _animator.SetBool("Attacking", true);
                 currentPunchAnimationTime = punchAnimationTime;
                 currentlyPunching = true;
-                punchBoxCollider2D.enabled = true;
+                if(!punchBoxCollider2D.enabled)punchBoxCollider2D.enabled = true;
+                _rb.velocity = new Vector2(0,0);
             }
         }
         
@@ -38,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
         {
             _animator.SetBool("Attacking", false);
             currentlyPunching = false;
-            punchBoxCollider2D.enabled = false;
+            if(punchBoxCollider2D.enabled) punchBoxCollider2D.enabled= false;
         }
         
         _horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
@@ -47,15 +55,25 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        controller.Move(_horizontalMove * Time.fixedDeltaTime, _verticalMove*Time.fixedDeltaTime);
-        if (_horizontalMove != 0 || _verticalMove != 0)
+        if (!currentlyPunching)
         {
-            _animator.SetBool("Running", true);
+            controller.Move(_horizontalMove * Time.fixedDeltaTime, _verticalMove*Time.fixedDeltaTime);
+            
+            if ((_horizontalMove != 0 || _verticalMove != 0))
+            {
+                _animator.SetBool("Running", true);
+            }
+            else
+            {
+                _animator.SetBool("Running", false);
+            }
         }
         else
         {
             _animator.SetBool("Running", false);
         }
+        
+        
         
         if (currentPunchAnimationTime > 0)
         {

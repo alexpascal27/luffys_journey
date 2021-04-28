@@ -29,17 +29,21 @@ public class UIButtonBehaviour : MonoBehaviour
         
         // Destroy bosses that we do not need
         int[] bossIndexList = playerPrefsManager.GetBossListForLevel();
-        // For each boss that we need to spawn
-        for(int i = 0; i < bossesPrefabs.Length; i++) 
+        if (bossesPrefabs != null)
         {
-            GameObject bossPrefab = bossesPrefabs[i];
-            // if not in boss that we need spawned, then destroy
-            if (!bossIndexList.Contains(i))
+            // For each boss that we need to spawn
+            for(int i = 0; i < bossesPrefabs.Length; i++) 
             {
-                Destroy(bossPrefab);
-                bossesPrefabs[i] = null;
+                GameObject bossPrefab = bossesPrefabs[i];
+                // if not in boss that we need spawned, then destroy
+                if (!bossIndexList.Contains(i))
+                {
+                    Destroy(bossPrefab);
+                    bossesPrefabs[i] = null;
+                }
             }
         }
+        
     }
 
     public void OnQuitButtonClick()

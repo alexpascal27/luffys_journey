@@ -4,6 +4,8 @@ using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour
 {
+	private PlayerMovement _playerMovement;
+	
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f; // How much to smooth out the movement
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true; // For determining which way the player is currently facing.
@@ -12,6 +14,7 @@ public class CharacterController2D : MonoBehaviour
 
 	private void Start()
 	{
+		_playerMovement = GetComponent<PlayerMovement>();
 		spriteRenderer = GetComponent<SpriteRenderer>();
 	}
 
@@ -39,7 +42,10 @@ public class CharacterController2D : MonoBehaviour
 		if ((move > 0 && !m_FacingRight) || (move < 0 && m_FacingRight))
 		{
 			// ... flip the player.
-			Flip();
+			if (!_playerMovement.currentlyPunching)
+			{
+				Flip();
+			}
 		}
 	}
 
