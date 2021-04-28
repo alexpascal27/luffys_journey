@@ -37,8 +37,8 @@ public class AkainuAttack : MonoBehaviour
         _akainuAnimator = GetComponent<Animator>();
         
         Vector3 bottomLeft = Camera.main.ScreenToWorldPoint(Vector3.zero);
-        _projectileSpawnAreaWidth = -(2 * bottomLeft.x);
-        _topLeft = new Vector3(bottomLeft.x, -bottomLeft.y);
+        _projectileSpawnAreaWidth = -(2 * bottomLeft.x) - 2;
+        _topLeft = new Vector3(bottomLeft.x + 1, -bottomLeft.y);
     }
 
     private void Update()
