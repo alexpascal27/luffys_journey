@@ -390,6 +390,7 @@ GameObject:
   - component: {fileID: 1480384772731088181}
   - component: {fileID: 1480384772731088182}
   - component: {fileID: 1480384772731088183}
+  - component: {fileID: 1105104695520669956}
   m_Layer: 0
   m_Name: Kizaru
   m_TagString: Boss
@@ -600,3 +601,20 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   dashPositionalOffSet: {x: 1, y: 1.5}
+--- !u!114 &1105104695520669956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480384772731088191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3136bfd285f6428eb5ff28848e7e1097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptsToDisable:
+  - {fileID: 1480384772731088176}
+  - {fileID: 1480384772731088182}
+  - {fileID: 1480384772731088183}
+  disableTime: 0

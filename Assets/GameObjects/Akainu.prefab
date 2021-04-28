@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 7074334667837954779}
   - component: {fileID: 7074334667837954772}
   - component: {fileID: 7074334667837954773}
-  - component: {fileID: 7074334667837954774}
   - component: {fileID: 7074334667837954775}
+  - component: {fileID: -2259733952945725061}
   m_Layer: 0
   m_Name: Akainu
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7074334667837954768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.49, z: 0}
+  m_LocalPosition: {x: -7.5, y: -3.49, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -131,27 +131,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6054954, y: 0.17564061}
   m_EdgeRadius: 0
---- !u!50 &7074334667837954774
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7074334667837954768}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!114 &7074334667837954775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,7 +143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60977222721a4283a204728fbaa88421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arriveAnimationTime: 8
   ability1Cooldown: 6
   cellAflamePrefab: {fileID: 3371526226516943093, guid: 6023c187458c1abcaa998c006c195df9, type: 3}
   numberOfCellsPerSpawn: 3
@@ -173,3 +151,18 @@ MonoBehaviour:
   lavaProjectilePrefab: {fileID: 6223749256089556478, guid: 8c70a4f30c2366bc0ac1956b2d5543f4, type: 3}
   projectileSpawnAreaHeight: 20
   numberOfProjectilesPerSpawn: 10
+--- !u!114 &-2259733952945725061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7074334667837954768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3136bfd285f6428eb5ff28848e7e1097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptsToDisable:
+  - {fileID: 7074334667837954775}
+  disableTime: 0

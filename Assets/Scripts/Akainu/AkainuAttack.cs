@@ -5,10 +5,9 @@ using Random = UnityEngine.Random;
 public class AkainuAttack : MonoBehaviour
 {
     // General animation stuff
-    [SerializeField] private float arriveAnimationTime = 6f;
     private Animator _akainuAnimator;
     
-    private float _currentCooldown;
+    private float _currentCooldown = 0f;
     private float _currentAnimationTime = 0f;
 
     // Ability 1
@@ -33,7 +32,6 @@ public class AkainuAttack : MonoBehaviour
 
     private void Start()
     {
-        _currentCooldown = arriveAnimationTime;
         _akainuAnimator = GetComponent<Animator>();
         
         Vector3 bottomLeft = Camera.main.ScreenToWorldPoint(Vector3.zero);
