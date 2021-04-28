@@ -13,6 +13,7 @@ public class ShipSpawnTroops : MonoBehaviour
     private float remainingAnimationTime = 0f;
     [SerializeField]private Animator _animator;
     [SerializeField]private GameObject troopPrefab;
+    [SerializeField] private int level;
 
     private void Update()
     {
@@ -22,7 +23,7 @@ public class ShipSpawnTroops : MonoBehaviour
             remainingWaitTime = waitTillSpawn;
             remainingCooldownTime = spawnCooldown;
             remainingAnimationTime = animationTime;
-            _animator.SetBool("Moving", true);
+            _animator.SetBool("MovingLevel" + level, true);
         }
         // At point which we spawn troops
         if (remainingWaitTime <= 0)
@@ -34,7 +35,7 @@ public class ShipSpawnTroops : MonoBehaviour
         // Animation finished
         if (remainingAnimationTime <= 0)
         {
-            _animator.SetBool("Moving", false);
+            _animator.SetBool("MovingLevel" + level, false);
             // Reset cooldown
             remainingCooldownTime = spawnCooldown;
             remainingAnimationTime = animationTime + remainingCooldownTime;

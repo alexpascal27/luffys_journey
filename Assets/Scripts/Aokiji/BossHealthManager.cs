@@ -12,7 +12,8 @@ namespace Aokiji
         private float movementSpeed = 0f;
         
         private float _health = 100f;
-
+        private float healAmount = 30f;
+        
         private Animator _animator;
         [SerializeField] private String leaveAnimationName;
         [SerializeField] private float leaveAnimationTime;
@@ -146,6 +147,30 @@ namespace Aokiji
             _health -= healthDecreaseAmount;
             // Reduce health filling UI
             ChangeHealthBarFilling(-healthDecreaseAmount);
+        }
+        
+        public void HealBoss()
+        {
+            if(_health>=99) return;
+            float amount = healAmount;
+            if (healAmount + _health > 100f)
+            {
+                amount = 100 - _health;
+            }
+            // Increase health
+            _health += amount;
+            // Reduce health filling UI
+            ChangeHealthBarFilling(amount);
+        }
+
+        private void OnCollisionEnter2D(Collision2D other)
+        {
+            GameObject collisionGameObject = other.gameObject;
+            if (collisionGameObject.CompareTag("Meat"))
+            {
+                HealBoss();
+                Destroy(collisionGameObject);
+            }
         }
     }
     
