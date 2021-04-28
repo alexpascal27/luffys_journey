@@ -1477,6 +1477,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1746328946632236097, guid: 664a3b38e339b4444b4a70ef28422ef3, type: 3}
+      propertyPath: spawnCooldown
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1746328946632236097, guid: 664a3b38e339b4444b4a70ef28422ef3, type: 3}
       propertyPath: waitTillSpawn
       value: 2.5
       objectReference: {fileID: 0}
@@ -2010,6 +2014,10 @@ PrefabInstance:
     - target: {fileID: 4362929694468812646, guid: 24a305c58c460270883665e2a2d0ef72, type: 3}
       propertyPath: m_Name
       value: Luffy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4362929694468812654, guid: 24a305c58c460270883665e2a2d0ef72, type: 3}
+      propertyPath: healthDecreaseAmount
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a305c58c460270883665e2a2d0ef72, type: 3}
@@ -4626,8 +4634,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kizaru
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1480384772731088177, guid: 8db8afc76c93c9bb7a9e01864a45c862, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8db8afc76c93c9bb7a9e01864a45c862, type: 3}
 --- !u!1 &2078001894 stripped
 GameObject:

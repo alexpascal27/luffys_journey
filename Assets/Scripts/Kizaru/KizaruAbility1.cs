@@ -151,7 +151,6 @@ namespace Kizaru
             
             _dashLocation = new Vector3(playerPosition.x + freestDirection.x * dashPositionalOffSet.x,
                 playerPosition.y + freestDirection.y * dashPositionalOffSet.y);
-            Debug.Log("DashLocation: " + _dashLocation);
         }
 
         private Vector2 GetFreestDirection(Vector2 raycastStartPosition)
