@@ -48,7 +48,7 @@ public class UIButtonBehaviour : MonoBehaviour
 
     public void OnQuitButtonClick()
     {
-        Debug.Log("You want to quit!");        
+        Application.Quit();     
     }
 
     public void OnStartButtonClick()
@@ -60,7 +60,7 @@ public class UIButtonBehaviour : MonoBehaviour
     public void OnCreditsButtonClick()
     {
         // Load credits screen
-        Debug.Log("You want credits!");
+        Application.OpenURL("http://unity3d.com/");
     }
 
     public void OnBackToMainMenuButtonClick()

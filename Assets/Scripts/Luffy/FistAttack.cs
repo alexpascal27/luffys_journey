@@ -22,7 +22,7 @@ namespace Luffy
             {
                 TroopHealthManager troopHealthManager = colliderGameObject.GetComponent<TroopHealthManager>();
                 troopHealthManager.DamageTroop();
-                _boxCollider2D.enabled = false;
+                if(_boxCollider2D.enabled)_boxCollider2D.enabled = false;
                 
                 // Increase number of times luffy hit troops
                 PlayerPrefsManager playerPrefsManager = new PlayerPrefsManager();
@@ -32,7 +32,7 @@ namespace Luffy
             {
                 BossHealthManager bossHealthManager = colliderGameObject.GetComponent<BossHealthManager>();
                 bossHealthManager.DamageBoss();
-                _boxCollider2D.enabled = false;
+                if(_boxCollider2D.enabled)_boxCollider2D.enabled = false;
                 
                 // Increase number of times luffy hit troops
                 PlayerPrefsManager playerPrefsManager = new PlayerPrefsManager();
