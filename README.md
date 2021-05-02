@@ -4,6 +4,7 @@ A RPG game based around the theme of "Failure is progress". The game has 3 level
 ## Gameplay
 
 ## Story
+An injured Luffy is on the battlefield. He is stuck at Marineford, on the battlefield, fighting marine troops and the three fierce navy admirals. He needs to hold out till the rest of the Straw-hat crew arrive and save him. There is a catch though - the navy is constantly changing their opinion on Luffy. Luffy's perfomance during a level determines how many admirals and which admirals will fight him, in the next level. Luffy needs to balance surviving and looking like a fool in front of the navy's eyes.
 
 # Credits
 *I did not create and I do not own any of the art used in this game, all the appropriate creators/owners are named below*
@@ -51,3 +52,5 @@ A RPG game based around the theme of "Failure is progress". The game has 3 level
 ## Sound Effects
 
 # Inspiration
+This game was heavily inspired by the anime series [One Piece](https://en.wikipedia.org/wiki/One_Piece "One Piece Wikipedia"). Luffy's Journey is especially based on the [Marineford arc](https://onepiece.fandom.com/wiki/Marineford_Arc "Marineford arc description and details") of the anime.
+The author of this series is [Eiichiro Oda](https://www.google.com/search?client=ubuntu&hs=MBj&channel=fs&q=Eiichiro+Oda&stick=H4sIAAAAAAAAAOPgE-LUz9U3MIxPMzBWgjJT4k205LOTrfST8vOz9XMyS1KLEosq44tTizJTi60SS0sy8osWsfK4ZmYmZ2QW5Sv4pyTuYGUEAGnrUBhLAAAA&sa=X&ved=2ahUKEwj-vIyLiqzwAhUEhlwKHX-5BTgQmxMoATAxegQIahAD) and the studio behind the animation of the anime is [Toei Animation](https://www.google.com/search?client=ubuntu&hs=Jy3&channel=fs&q=Toei+Animation&stick=H4sIAAAAAAAAAONgVuLUz9U3MCrPKit6xGjCLfDyxz1hKe1Ja05eY1Tl4grOyC93zSvJLKkUEudig7J4pbi5ELp4FrHyheSnZio45mXmJpZk5ucBAGD3Y8hVAAAA&biw=1920&bih=942).  
