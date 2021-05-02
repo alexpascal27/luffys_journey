@@ -19,13 +19,31 @@ A RPG game based around the theme of "Failure is progress". The game has 3 level
 
 `health bar`: https://www.pngitem.com/middle/mwJbxw_game-health-bar-png-transparent-png/
 
-`luffy's bounty`: https://wallpaperaccess.com/luffy-bounty
+`Luffy's bounty`: https://wallpaperaccess.com/luffy-bounty
 
-`kizaru icon`: https://www.pinterest.co.uk/emmanuelfcantu/kizaru/
+`Kizaru icon`: https://www.pinterest.co.uk/emmanuelfcantu/kizaru/
 
-`aokiji icon`: https://ar.pinterest.com/pin/674414112943384112/
+`Aokiji icon`: https://ar.pinterest.com/pin/674414112943384112/
 
-`akainu icon`: https://jetpistol-icons.tumblr.com/post/190441523227/akainu-icons-like-or-reblog-if-you-save-it
+`Akainu icon`: https://jetpistol-icons.tumblr.com/post/190441523227/akainu-icons-like-or-reblog-if-you-save-it
+
+### Gameplay
+
+`level map resources`: https://pixelhole.itch.io/pixelholes-overworld-tileset
+
+`ship`: https://opengameart.org/content/war-of-the-ages-pixel-art-sprite-sheet
+
+`troop swordsman sprite sheet`(used for troop animations): https://spritedatabase.net/file/4038
+
+`Kizaru sprite sheet`(used for Kizaru animations): https://spritedatabase.net/file/9445
+
+`Aokiji sprite sheet`(used for Aokiji animations): https://spritedatabase.net/file/12457
+
+`Akainu sprite sheet`(used for Akainu animations): https://spritedatabase.net/file/12761
+
+`Luffy sprite sheet`(used for Luffy animations): https://spritedatabase.net/file/12099
+
+`Meat sprite`: https://spritedatabase.net/file/13809
 
 ## Music
 
